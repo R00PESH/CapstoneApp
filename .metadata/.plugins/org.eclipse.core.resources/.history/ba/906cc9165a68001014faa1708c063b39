@@ -1,0 +1,35 @@
+package training.iqgateway.repo;
+
+import java.util.List;
+
+import org.springframework.data.geo.Distance;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.mongodb.client.model.geojson.Point;
+
+import training.iqgateway.model.ProviderEO;
+
+public interface ProviderRepository extends MongoRepository<ProviderEO, String> {
+	
+	List<ProviderEO> findByGeoLocationNear(Point point,Distance distance);
+
+	List<ProviderEO> findBySpeciality(String speciality);
+	
+	List<ProviderEO> findByName(String name);
+	
+	List<ProviderEO> findByGender(String gender);
+	
+	List<ProviderEO> findByInsurance_PlansIn(List<String> insurance_Plans);
+	
+	List<ProviderEO> findByActive_Status(String active_Status);
+	
+	List<ProviderEO> findByExperienceGreaterThan(double experience);
+	
+	List<ProviderEO> findByRatingGreaterThan(double minrating);
+	
+	List<ProviderEO> findByHospital_name(String hospital_name);
+	
+	List<ProviderEO> findByZipcode(long zipcode);
+	
+	
+}

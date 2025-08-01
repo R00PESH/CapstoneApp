@@ -1,0 +1,24 @@
+package training.iqgateway.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import training.iqgateway.dto.DoctorDTO;
+import training.iqgateway.dto.ProviderDTO;
+
+@Service
+public class DoctorServiceUrl {
+
+    @Value("${provider.service.url}")
+    private String providerServiceUrl; // e.g. http://localhost:9091/providers
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    public ProviderDTO fetchProviderByDocId(String DocId) {
+        String url = providerServiceUrl + "/" + DocId;
+        return restTemplate.getForObject(url, ProviderDTO.class);
+    }
+}

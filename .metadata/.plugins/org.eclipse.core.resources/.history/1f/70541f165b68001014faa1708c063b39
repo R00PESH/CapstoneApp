@@ -1,0 +1,84 @@
+package training.iqgateway.mapper;
+
+import java.util.stream.Collectors;
+
+import training.iqgateway.dto.ProviderDTO;
+import training.iqgateway.model.ProviderEO;
+
+public class ProviderMapper {
+	
+	public static ProviderDTO toDTO(ProviderEO provider) {
+	if (provider == null) return null;
+    ProviderDTO dto = new ProviderDTO();
+    dto.setId(provider.getId());
+    dto.setDocId(provider.getDocId());
+    dto.setName(provider.getName());
+    dto.setSpeciality(provider.getSpeciality());
+    dto.setExperience(provider.getExperience());
+    dto.setGender(provider.getGender());
+    dto.setRating(provider.getRating());
+    dto.setLocation(provider.getLocation());
+    dto.setZipcode(provider.getZipcode());
+    dto.setLat(provider.getLat());
+    dto.setLon(provider.getLon());
+    dto.setHospitalName(provider.getHospitalName());
+    dto.setInsurancePlans(provider.getInsurance_Plans());
+    dto.setActiveStatus(provider.getActive_Status());
+    if (provider.getReviews() != null) {
+        dto.setReviews(provider.getReviews().stream()
+            .map(ProviderMapper::toReviewDTO)
+            .collect(Collectors.toList()));
+    }
+    return dto;
+	}
+	
+	public static ProviderEO toEntity(ProviderDTO dto) {
+        if (dto == null) return null;
+        ProviderEO provider = new ProviderEO();
+        provider.setId(dto.getId());
+        provider.setDocId(dto.getDocId());
+        provider.setName(dto.getName());
+        provider.setSpeciality(dto.getSpeciality());
+        provider.setExperience(dto.getExperience());
+        provider.setGender(dto.getGender());
+        provider.setRating(dto.getRating());
+        provider.setLocation(dto.getLocation());
+        provider.setZipcode(dto.getZipcode());
+        provider.setLat(dto.getLat());
+        provider.setLon(dto.getLon());
+        provider.setHospitalName(dto.getHospitalName());
+        provider.setInsurance_Plans(dto.getInsurancePlans());
+        provider.setActive_Status(dto.getActiveStatus());
+        if (dto.getReviews() != null) {
+            provider.setReviews(dto.getReviews().stream()
+                .map(ProviderMapper::toReviewEntity)
+                .collect(Collectors.toList()));
+        }
+        return provider;
+    }
+	
+	public static ProviderDTO.ReviewDTO toReviewDTO(ProviderEO.Review review) {
+        if (review == null) return null;
+        ProviderDTO.ReviewDTO dto = new ProviderDTO.ReviewDTO();
+        dto.setCustomerName(review.getCustomer_name());
+        dto.setCustomerEmail(review.getCustomer_email());
+        dto.setRating(review.getRating());
+        dto.setReview(review.getReview());
+        dto.setReviewGivenTime(review.getReview_given_time());
+        return dto;
+    }
+	
+	public static ProviderEO.Review toReviewEntity(ProviderDTO.ReviewDTO dto) {
+        if (dto == null) return null;
+        ProviderEO.Review review = new ProviderEO.Review();
+        review.setCustomer_name(dto.getCustomerName());
+        review.setCustomer_email(dto.getCustomerEmail());
+        review.setRating(dto.getRating());
+        review.setReview(dto.getReview());
+        review.setReview_given_time(dto.getReviewGivenTime());
+        return review;
+    }
+
+}
+	
+	

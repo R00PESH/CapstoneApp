@@ -1,0 +1,72 @@
+package training.iqgateway.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import training.iqgateway.dto.InsurancePlansDTO;
+import training.iqgateway.mapper.InsurancePlansMapper;
+import training.iqgateway.model.InsurancePlansEO;
+import training.iqgateway.repo.InsurancePlansRepository;
+import training.iqgateway.service.InsurancePlansService;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+@Service
+public class InsurancePlansServiceImpl implements InsurancePlansService {
+
+    @Autowired
+    private InsurancePlansRepository repo;
+
+    // CREATE
+    @Override
+    public InsurancePlansDTO createPlan(InsurancePlansDTO planDTO) {
+        InsurancePlansEO entity = InsurancePlansMapper.toEO(planDTO);
+        InsurancePlansEO saved = repo.save(entity);
+        return InsurancePlansMapper.toDTO(saved);
+    }
+
+    // READ ALL
+    @Override
+    public List<InsurancePlansDTO> getAllPlans() {
+        return repo.findAll().stream()
+                .map(InsurancePlansMapper::toDTO)
+                .collect(Collectors.toList());
+    }
+
+    // READ BY INTEGER id (business id)
+    @Override
+    public InsurancePlansDTO getPlanById(Integer id) {
+        InsurancePlansEO found = repo.findAll().stream()
+                .filter(eo -> eo.getId() != null && eo.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        return found != null ? InsurancePlansMapper.toDTO(found) : null;
+    }
+
+    // UPDATE BY id (full replace)
+    @Override
+    public InsurancePlansDTO updatePlan(Integer id, InsurancePlansDTO planDTO) {
+        InsurancePlansEO existing = repo.findAll().stream()
+                .filter(eo -> eo.getId() != null && eo.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        if (existing == null) return null;
+        InsurancePlansEO updated = InsurancePlansMapper.toEO(planDTO);
+        updated.set_id(existing.get_id()); // retain Mongo _id
+        InsurancePlansEO saved = repo.save(updated);
+        return InsurancePlansMapper.toDTO(saved);
+    }
+
+    // DELETE BY id
+    @Override
+    public void deletePlan(Integer id) {
+        InsurancePlansEO existing = repo.findAll().stream()
+                .filter(eo -> eo.getId() != null && eo.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+        if (existing != null) {
+            repo.delete(existing);
+        }
+    }
+
+}

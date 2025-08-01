@@ -1,0 +1,82 @@
+package training.iqgateway.service.impl;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
+
+import training.iqgateway.model.ProviderEO;
+import training.iqgateway.model.ProviderEO.Review;
+import training.iqgateway.repo.ProviderRepository;
+import training.iqgateway.service.ProviderService;
+
+public class ProviderServiceImpl implements ProviderService {
+	
+	@Autowired
+	private ProviderRepository provideRepo;
+	
+	@Autowired
+	private MongoTemplate mongoTem;
+
+	@Override
+	public ProviderEO createProvider(ProviderEO provider) {
+		if(provider.getLat()!=0 && provider.getLon()!=0) {
+			provider.setGeoLocation(new GeoJsonPoint(provider.getLon(),provider.getLat()));
+		}
+		provider.setRating(0d);
+		return provideRepo.save(provider);
+	}
+
+	@Override
+	public ProviderEO getProviderById(String docId) {
+		// TODO Auto-generated method stub
+		return provideRepo.findById(docId).orElse(null);
+	}
+
+	@Override
+	public List<ProviderEO> getProviderByName(String name) {
+		// TODO Auto-generated method stub
+		return provideRepo.findByName(name);
+	}
+
+	@Override
+	public List<ProviderEO> getAllProviders() {
+		// TODO Auto-generated method stub
+		return provideRepo.findAll();
+	}
+
+	@Override
+	public ProviderEO updateProvider(String docId, ProviderEO provider) {
+		 ProviderEO existing = getProviderById(docId);
+	        if (existing == null) return null;
+	        provider.setId(docId);
+	        if (provider.getLat() != 0 && provider.getLon() != 0) {
+	            provider.setGeoLocation(new org.springframework.data.mongodb.core.geo.GeoJsonPoint(provider.getLon(), provider.getLat()));
+	        }
+	        if (provider.getReviews() != null && !provider.getReviews().isEmpty()) {
+	            provider.setRating(calcReviewAverage(provider.getReviews()));
+	        }
+	        return provideRepo.save(provider);
+	    }
+	@Override
+	public void deleteProvider(Integer docId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<ProviderEO> filterProviders(Double lat, Double lon, Double distanceKm, Double minExperience,
+			Double minRating, String gender, List<String> insurancePlans, String speciality) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProviderEO addReview(String providerId, Review review) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

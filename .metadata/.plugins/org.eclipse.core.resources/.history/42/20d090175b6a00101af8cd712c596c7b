@@ -1,0 +1,68 @@
+package training.iqgateway.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import training.iqgateway.dto.InsurancePlansDTO;
+import training.iqgateway.mapper.InsurancePlansMapper;
+import training.iqgateway.model.InsurancePlansEO;
+import training.iqgateway.repo.InsurancePlansRepository;
+import training.iqgateway.service.InsurancePlansService;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+@Service
+public class InsurancePlansServiceImpl implements InsurancePlansService {
+
+    @Autowired
+    private InsurancePlansRepository repo;
+
+    // CREATE
+    @Override
+    public InsurancePlansDTO createPlan(InsurancePlansDTO planDTO) {
+        InsurancePlansEO entity = InsurancePlansMapper.toEO(planDTO);
+        InsurancePlansEO saved = repo.save(entity);
+        return InsurancePlansMapper.toDTO(saved);
+    }
+
+    // READ ALL
+    @Override
+    public List<InsurancePlansDTO> getAllPlans() {
+        return repo.findAll().stream()
+            .map(InsurancePlansMapper::toDTO)
+            .collect(Collectors.toList());
+    }
+
+    // READ BY TITLE
+    public InsurancePlansDTO getPlanByTitle(String title) {
+        InsurancePlansEO found = repo.findByTitle(title);
+        return found != null ? InsurancePlansMapper.toDTO(found) : null;
+    }
+
+    // UPDATE BY TITLE
+    public InsurancePlansDTO updatePlanByTitle(String title, InsurancePlansDTO planDTO) {
+        InsurancePlansEO existing = repo.findByTitle(title);
+        if (existing == null) return null;
+        InsurancePlansEO updated = InsurancePlansMapper.toEO(planDTO);
+        updated.set_id(existing.get_id()); // preserve Mongo _id to update same doc
+        InsurancePlansEO saved = repo.save(updated);
+        return InsurancePlansMapper.toDTO(saved);
+    }
+
+    // DELETE BY TITLE
+    public void deletePlanByTitle(String title) {
+        InsurancePlansEO existing = repo.findByTitle(title);
+        if (existing != null) repo.delete(existing);
+    }
+
+    // If you want to keep the interface as before, adapt:
+    @Override
+    public InsurancePlansDTO getPlanById(Integer id) {
+        // Prefer to remove this if you want all by title!
+        return null; // or throw UnsupportedOperationException
+    }
+    @Override
+    public InsurancePlansDTO updatePlan(Integer id, InsurancePlansDTO planDTO) { return null; }
+    @Override
+    public void deletePlan(Integer id) { }
+}

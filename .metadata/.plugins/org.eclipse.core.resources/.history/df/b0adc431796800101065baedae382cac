@@ -1,0 +1,7 @@
+spring.application.name=Customers
+
+server.port=9092
+
+spring.data.mongodb.uri=mongodb://localhost:27017/Provider_Finder
+
+debug=true

@@ -1,0 +1,7 @@
+spring.application.name=Insurance_Team
+
+# Server port
+server.port=9095
+
+# Database configuration
+spring.data.mongodb.uri=mongodb://localhost:27017/Provider_Finder

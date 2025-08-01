@@ -1,0 +1,13 @@
+spring.application.name=Admin
+
+# Server port
+server.port=9094
+
+# Database configuration
+spring.data.mongodb.uri=mongodb://localhost:27017/Provider_Finder
+
+# Enable MongoDB repositories
+spring.data.mongodb.repositories.enabled=true
+
+doctor.service.url=http://localhost:9093
+provider.service.url=http://localhost:9091

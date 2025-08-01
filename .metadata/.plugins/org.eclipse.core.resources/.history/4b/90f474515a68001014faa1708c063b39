@@ -1,0 +1,460 @@
+package training.iqgateway.model;
+
+import java.time.Instant;
+import java.util.List;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "providers")
+public class ProviderEO {
+	
+	@Id
+	private String id;
+	
+	private String docId;
+	
+	private String name;
+	
+	private String speciality;
+	
+	private double experience;
+	
+	private String gender;
+	
+	private double rating;
+	
+	private String location;
+	
+	private long zipcode;
+	
+	private double lat;
+	
+	private double lon;
+	
+	private String hospitalName;
+	
+	private List<String> insurance_Plans;
+	
+	private String active_Status;
+	
+	private GeoJsonPoint geoLocation;
+	
+	private List<Review> reviews;
+	
+	
+	
+	
+	
+	
+	public ProviderEO(String id,String docId, String name, String speciality, double experience, String gender, double rating,
+			String location, long zipcode, double lat, double lon, String hospitalName, List<String> insurance_Plans,
+			String active_Status, GeoJsonPoint geoLocation, List<Review> reviews) {
+		super();
+		this.id = id;
+		this.docId=docId;
+		this.name = name;
+		this.speciality = speciality;
+		this.experience = experience;
+		this.gender = gender;
+		this.rating = rating;
+		this.location = location;
+		this.zipcode = zipcode;
+		this.lat = lat;
+		this.lon = lon;
+		this.hospitalName = hospitalName;
+		this.insurance_Plans = insurance_Plans;
+		this.active_Status = active_Status;
+		this.geoLocation = geoLocation;
+		this.reviews = reviews;
+	}
+
+
+
+
+
+
+	public ProviderEO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+    
+	
+	
+
+
+
+
+
+	public String getId() {
+		return id;
+	}
+
+
+
+
+
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+
+    
+
+
+
+	public String getDocId() {
+		return docId;
+	}
+
+
+
+
+
+
+	public void setDocId(String docId) {
+		this.docId = docId;
+	}
+
+
+
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+
+
+
+	public String getSpeciality() {
+		return speciality;
+	}
+
+
+
+
+
+
+	public void setSpeciality(String speciality) {
+		this.speciality = speciality;
+	}
+
+
+
+
+
+
+	public double getExperience() {
+		return experience;
+	}
+
+
+
+
+
+
+	public void setExperience(double experience) {
+		this.experience = experience;
+	}
+
+
+
+
+
+
+	public String getGender() {
+		return gender;
+	}
+
+
+
+
+
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+
+
+
+
+
+	public double getRating() {
+		return rating;
+	}
+
+
+
+
+
+
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
+
+
+
+
+
+
+	public String getLocation() {
+		return location;
+	}
+
+
+
+
+
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+
+
+
+
+
+	public long getZipcode() {
+		return zipcode;
+	}
+
+
+
+
+
+
+	public void setZipcode(long zipcode) {
+		this.zipcode = zipcode;
+	}
+
+
+
+
+
+
+	public double getLat() {
+		return lat;
+	}
+
+
+
+
+
+
+	public void setLat(double lat) {
+		this.lat = lat;
+	}
+
+
+
+
+
+
+	public double getLon() {
+		return lon;
+	}
+
+
+
+
+
+
+	public void setLon(double lon) {
+		this.lon = lon;
+	}
+
+
+
+
+
+
+	public String getHospitalName() {
+		return hospitalName;
+	}
+
+
+
+
+
+
+	public void setHospitalName(String hospitalName) {
+		this.hospitalName = hospitalName;
+	}
+
+
+
+
+
+
+	public List<String> getInsurance_Plans() {
+		return insurance_Plans;
+	}
+
+
+
+
+
+
+	public void setInsurance_Plans(List<String> insurance_Plans) {
+		this.insurance_Plans = insurance_Plans;
+	}
+
+
+
+
+
+
+	public String getActive_Status() {
+		return active_Status;
+	}
+
+
+
+
+
+
+	public void setActive_Status(String active_Status) {
+		this.active_Status = active_Status;
+	}
+
+
+
+
+
+
+	public GeoJsonPoint getGeoLocation() {
+		return geoLocation;
+	}
+
+
+
+
+
+
+	public void setGeoLocation(GeoJsonPoint geoLocation) {
+		this.geoLocation = geoLocation;
+	}
+
+
+
+
+
+
+	public List<Review> getReviews() {
+		return reviews;
+	}
+
+
+
+
+
+
+	public void setReviews(List<Review> reviews) {
+		this.reviews = reviews;
+	}
+
+
+
+
+
+
+
+
+	public static class Review {
+		
+		private String customer_name;
+		
+		private String customer_email;
+		
+		private double rating;
+		
+		private String review;
+		
+		private Instant review_given_time;
+
+		public Review() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+
+		public Review(String customer_name, String customer_email, double rating, String review,
+				Instant review_given_time) {
+			super();
+			this.customer_name = customer_name;
+			this.customer_email = customer_email;
+			this.rating = rating;
+			this.review = review;
+			this.review_given_time = review_given_time;
+		}
+
+		public String getCustomer_name() {
+			return customer_name;
+		}
+
+		public void setCustomer_name(String customer_name) {
+			this.customer_name = customer_name;
+		}
+
+		public String getCustomer_email() {
+			return customer_email;
+		}
+
+		public void setCustomer_email(String customer_email) {
+			this.customer_email = customer_email;
+		}
+
+		public double getRating() {
+			return rating;
+		}
+
+		public void setRating(double rating) {
+			this.rating = rating;
+		}
+
+		public String getReview() {
+			return review;
+		}
+
+		public void setReview(String review) {
+			this.review = review;
+		}
+
+		public Instant getReview_given_time() {
+			return review_given_time;
+		}
+
+		public void setReview_given_time(Instant review_given_time) {
+			this.review_given_time = review_given_time;
+		}
+
+		@Override
+		public String toString() {
+			return "Review [customer_name=" + customer_name + ", customer_email=" + customer_email + ", rating="
+					+ rating + ", review=" + review + ", review_given_time=" + review_given_time + "]";
+		}
+		
+		
+		
+	}
+	
+	
+	
+
+}

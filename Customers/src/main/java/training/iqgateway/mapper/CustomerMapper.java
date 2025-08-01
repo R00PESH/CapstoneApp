@@ -1,0 +1,64 @@
+package training.iqgateway.mapper;
+
+import training.iqgateway.dto.CustomerDTO;
+import training.iqgateway.model.CustomerEO;
+
+public class CustomerMapper {
+	
+	// This class can be used to map between CustomerEO and CustomerDTO
+	// For example, you can use MapStruct or manual mapping methods here
+
+	// Example of a manual mapping method
+	
+	public static CustomerDTO toDto(CustomerEO customerEO) {
+		if (customerEO == null) {
+			return null;
+		}
+		CustomerDTO dto =new CustomerDTO();
+		dto.setId(customerEO.getId());
+        dto.setName(customerEO.getName());
+        dto.setEmail(customerEO.getEmail());
+        dto.setPassword(customerEO.getPassword());
+        dto.setDateOfBirth(customerEO.getDateOfBirth());
+        dto.setGender(customerEO.getGender());
+        dto.setAdharNumber(customerEO.getAdharNumber());
+        dto.setContactNumber(customerEO.getContactNumber());
+        dto.setAddress(customerEO.getAddress());
+        dto.setZipcode(customerEO.getZipcode());
+        dto.setLat(customerEO.getLat());
+        dto.setLon(customerEO.getLon());
+        dto.setNominee(customerEO.getNominee());
+        dto.setNomineeAdharNumber(customerEO.getNomineeAdharNumber());
+        dto.setInsurancePlans(customerEO.getInsurancePlans());
+        dto.setStatus(customerEO.getStatus());
+        dto.setGeoLocation(customerEO.getGeoLocation());
+		return dto;
+	}
+	
+	public static CustomerEO toEntity(CustomerDTO customerDTO) {
+		if (customerDTO == null) {
+			return null;
+		}
+		CustomerEO entity = new CustomerEO();
+		entity.setId(customerDTO.getId());
+		entity.setName(customerDTO.getName());
+		entity.setEmail(customerDTO.getEmail());
+		entity.setPassword(customerDTO.getPassword());
+		entity.setDateOfBirth(customerDTO.getDateOfBirth());
+		entity.setGender(customerDTO.getGender());
+		entity.setAdharNumber(customerDTO.getAdharNumber());
+		entity.setContactNumber(customerDTO.getContactNumber());
+		entity.setAddress(customerDTO.getAddress());
+		entity.setZipcode(customerDTO.getZipcode());
+		entity.setLat(customerDTO.getLat());
+		entity.setLon(customerDTO.getLon());
+		entity.setNominee(customerDTO.getNominee());
+		entity.setNomineeAdharNumber(customerDTO.getNomineeAdharNumber());
+		entity.setInsurancePlans(customerDTO.getInsurancePlans());
+		entity.setStatus(customerDTO.getStatus());
+		entity.setGeoLocation(customerDTO.getGeoLocation());
+		return entity;
+	}
+}
+
+

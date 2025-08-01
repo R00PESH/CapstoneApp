@@ -1,0 +1,91 @@
+package training.iqgateway.controller;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import training.iqgateway.dto.DoctorDTO;
+import training.iqgateway.dto.ProviderDTO;
+import training.iqgateway.mapper.DoctorMapper;
+import training.iqgateway.model.DoctorEO;
+import training.iqgateway.service.DoctorService;
+import training.iqgateway.service.impl.ProviderClientService;
+
+@RestController
+@RequestMapping("/doctors")
+public class DoctorController {
+	
+	 @Autowired
+	    private DoctorService doctorService;
+	 
+	    @Autowired
+	    private ProviderClientService providerClientService;
+
+	    @PostMapping
+	    public DoctorDTO createDoctor(@RequestBody DoctorDTO dto) {
+	        DoctorEO entity = DoctorMapper.toEntity(dto);
+	        return DoctorMapper.toDTO(doctorService.createDoctor(entity));
+	    }
+
+	    @GetMapping("/{id}/providers")
+	    public ProviderDTO getDoctor(@PathVariable String id,
+	                               @RequestParam(required = false, defaultValue = "false") boolean includeProvider) {
+	        DoctorDTO dto = DoctorMapper.toDTO(doctorService.getDoctorById(id));
+	        if (dto != null && includeProvider && dto.getHosId() != null) {
+	            return providerClientService.fetchProviderByHosId(dto.getHosId());
+	        }
+	        return null;
+	    }
+
+	    @GetMapping
+	    public List<DoctorDTO> getAllDoctors() {
+	        return doctorService.getAllDoctors().stream()
+	                .map(DoctorMapper::toDTO)
+	                .collect(Collectors.toList());
+	    }
+
+	    @PutMapping("/{id}")
+	    public DoctorDTO updateDoctor(@PathVariable String id, @RequestBody DoctorDTO dto) {
+	        DoctorEO updated = doctorService.updateDoctor(id, DoctorMapper.toEntity(dto));
+	        return DoctorMapper.toDTO(updated);
+	    }
+
+	    @DeleteMapping("/{id}")
+	    public void deleteDoctor(@PathVariable String id) {
+	        doctorService.deleteDoctor(id);
+	    }
+
+	    @GetMapping("/filter")
+	    public List<DoctorDTO> filterDoctors(
+	            @RequestParam(required = false) String docId,
+	            @RequestParam(required = false) Integer hosId,
+	            @RequestParam(required = false) String specialization,
+	            @RequestParam(required = false) String availabilityStatus,
+	            @RequestParam(required = false) String licenseNumber,
+	            @RequestParam(required = false) String qualification,
+	            @RequestParam(required = false) String name,
+	            @RequestParam(required=false) double yearsOfExperience
+	    ) {
+	        return doctorService.filterDoctors(docId, hosId, specialization, availabilityStatus, licenseNumber, qualification, name,yearsOfExperience)
+	                .stream().map(DoctorMapper::toDTO).collect(Collectors.toList());
+	    }
+
+	    // Add a review (and recalc average)
+	    @PostMapping("/{id}/reviews")
+	    public DoctorDTO addReview(@PathVariable String id, @RequestBody DoctorDTO.ReviewDTO reviewDTO) {
+	        DoctorEO.Review review = DoctorMapper.toReviewEntity(reviewDTO);
+	        DoctorEO updated = doctorService.addReview(id, review);
+	        return DoctorMapper.toDTO(updated);
+	    }
+
+}

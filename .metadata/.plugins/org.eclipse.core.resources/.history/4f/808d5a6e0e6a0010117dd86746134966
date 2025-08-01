@@ -1,0 +1,102 @@
+package training.iqgateway.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import training.iqgateway.dto.DoctorDTO;
+import training.iqgateway.dto.ProviderDTO;
+import training.iqgateway.service.impl.DoctorClientService;
+import training.iqgateway.service.impl.ProviderClientService;
+
+@RestController
+@RequestMapping("/customer-view/doctors")
+public class CustomerDoctorController {
+	
+	@Autowired
+	private DoctorClientService doctorSer;
+	
+	@Autowired
+	private ProviderClientService providerSer;
+	
+	
+
+
+	
+	@GetMapping("/filter")
+	public List<DoctorDTO> filterDoctors(
+	        @RequestParam(required = false,name="doc_Id") String docId,
+	        @RequestParam(required = false) String hosId,
+	        @RequestParam(required = false) String specialization,
+	        @RequestParam(required = false) String availabilityStatus,
+	        @RequestParam(required = false) String licenseNumber,
+	        @RequestParam(required = false) String qualification,
+	        @RequestParam(required = false) String name,
+	        @RequestParam(required = false) Double yearsOfExperience,
+	        @RequestParam(required = false) Double rating
+	) {
+	    List<DoctorDTO> doctors = doctorSer.filterDoctors(
+	            docId, hosId, specialization, availabilityStatus,
+	            licenseNumber, qualification, name, yearsOfExperience, rating
+	    );
+	    // Enrich with provider info if needed
+	    for (DoctorDTO doctor : doctors) {
+	        if (doctor.getHosId() != null) {
+	            ProviderDTO provider = providerSer.getProviderById(doctor.getHosId());
+	            if (provider != null) {
+	                doctor.setHospitalName(provider.getHospitalName());
+	                doctor.setHospitalLocation(provider.getLocation());
+	                doctor.setHospitalLat(provider.getLat());
+	                doctor.setHospitalLon(provider.getLon());
+	            }
+	        }
+	    }
+	    return doctors;
+	}
+
+	
+	@GetMapping("/by-hosid")
+	public DoctorDTO getDoctorByHosId(@RequestParam String hosId) {
+	    List<DoctorDTO> doctors = doctorSer.filterDoctors(null, hosId, null, null, null, null, null, null, null);
+	    if (doctors != null && !doctors.isEmpty()) {
+	        DoctorDTO doctor = doctors.get(0);
+	        if (doctor.getHosId() != null) {
+	            ProviderDTO provider = providerSer.getProviderById(doctor.getHosId());
+	            if (provider != null) {
+	                doctor.setHospitalName(provider.getHospitalName());
+	                doctor.setHospitalLocation(provider.getLocation());
+	                doctor.setHospitalLat(provider.getLat());
+	                doctor.setHospitalLon(provider.getLon());
+	            }
+	        }
+	        return doctor;
+	    }
+	    return null; // or throw not found exception
+	}
+	
+	@GetMapping("/by-docid")
+	public DoctorDTO getDoctorByDocId(@RequestParam String docId) {
+	    List<DoctorDTO> doctors = doctorSer.filterDoctors(docId, null, null, null, null, null, null, null, null);
+	    if (doctors != null && !doctors.isEmpty()) {
+	        DoctorDTO doctor = doctors.get(0);
+	        if (doctor.getHosId() != null) {
+	            ProviderDTO provider = providerSer.getProviderById(doctor.getHosId());
+	            if (provider != null) {
+	                doctor.setHospitalName(provider.getHospitalName());
+	                doctor.setHospitalLocation(provider.getLocation());
+	                doctor.setHospitalLat(provider.getLat());
+	                doctor.setHospitalLon(provider.getLon());
+	            }
+	        }
+	        return doctor;
+	    }
+	    return null; // or throw not found exception
+	}
+	
+	
+
+}

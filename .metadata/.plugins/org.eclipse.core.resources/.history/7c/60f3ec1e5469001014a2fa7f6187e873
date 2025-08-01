@@ -1,0 +1,54 @@
+package training.iqgateway.service.impl;
+
+import java.util.List;
+
+import training.iqgateway.model.DoctorEO;
+import training.iqgateway.model.DoctorEO.Review;
+import training.iqgateway.service.DoctorService;
+
+public class DoctorServiceImpl implements DoctorService {
+
+	@Override
+	public DoctorEO createDoctor(DoctorEO doctor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DoctorEO getDoctorById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<DoctorEO> getAllDoctors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DoctorEO updateDoctor(String id, DoctorEO doctor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteDoctor(String id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<DoctorEO> filterDoctors(String docId, Integer hosId, String specialization, String availabilityStatus,
+			String licenseNumber, String qualification, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DoctorEO addReview(String doctorId, Review review) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

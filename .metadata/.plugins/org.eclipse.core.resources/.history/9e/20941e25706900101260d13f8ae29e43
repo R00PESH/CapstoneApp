@@ -1,0 +1,6 @@
+spring.application.name=Doctors
+
+server.port=9093
+
+# Database configuration
+spring.data.mongdb.uri=mongodb://localhost:27017/doctors

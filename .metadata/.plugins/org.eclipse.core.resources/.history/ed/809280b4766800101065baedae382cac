@@ -1,0 +1,9 @@
+package training.iqgateway.repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import training.iqgateway.model.CustomerEO;
+
+public interface CustomerRepository extends MongoRepository<CustomerEO, String> {
+
+}

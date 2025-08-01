@@ -1,0 +1,89 @@
+package training.iqgateway.mapper;
+
+import java.util.stream.Collectors;
+
+import training.iqgateway.dto.DoctorDTO;
+import training.iqgateway.dto.DoctorDTO.ReviewDTO;
+import training.iqgateway.model.DoctorEO;
+
+public class DoctorMapper {
+	
+	public static DoctorDTO toDTO(DoctorEO doctorEO) {
+		if(doctorEO==null) {
+			return null;
+		}
+		DoctorDTO dto=new DoctorDTO();
+		dto.setId(doctorEO.getId());
+		dto.setDocId(doctorEO.getDocId());
+		dto.setHosId(doctorEO.getHosId());
+		dto.setName(doctorEO.getName());
+		dto.setLicenseNumber(doctorEO.getLicenseNumber());
+		dto.setQualification(doctorEO.getQualification());
+		dto.setSpecialization(doctorEO.getSpecialization());
+		dto.setRating(doctorEO.getRating());
+		dto.setYearsOfPractice(doctorEO.getYearsOfExp());
+		dto.setAvailabilityStatus(doctorEO.getAvailabilityStatus());
+		dto.setJoiningDate(doctorEO.getJoiningDate());
+		 if (doctorEO.getReviews() != null)
+	            dto.setReviews(doctorEO.getReviews()
+	            		                         .stream()
+	            		                         .map(DoctorMapper::toReviewDTO)
+	            		                         .collect(Collectors.toList()));
+		 return dto;
+	}
+	
+	public static DoctorEO toEntity(DoctorDTO doctorDTO) {
+		if(doctorDTO==null) {
+			return null;
+		}
+		DoctorEO entity=new DoctorEO();
+		entity.setId(doctorDTO.getId());
+		entity.setDocId(doctorDTO.getDocId());
+		entity.setHosId(doctorDTO.getHosId());
+		entity.setName(doctorDTO.getName());
+		entity.setLicenseNumber(doctorDTO.getLicenseNumber());
+		entity.setQualification(doctorDTO.getQualification());
+		entity.setSpecialization(doctorDTO.getSpecialization());
+		entity.setRating(doctorDTO.getRating());
+		entity.setYearsOfExp(doctorDTO.getYearsOfPractice());
+		entity.setAvailabilityStatus(doctorDTO.getAvailabilityStatus());
+		entity.setJoiningDate(doctorDTO.getJoiningDate());
+		 if (doctorDTO.getReviews() != null)
+	            entity.setReviews(doctorDTO.getReviews()
+	            		                         .stream()
+	            		                         .map(DoctorMapper::toReviewEntity)
+	            		                         .collect(Collectors.toList()));
+		 return entity;
+	}
+	
+	public static DoctorDTO.ReviewDTO toReviewDTO(DoctorEO.Review reviewEO) {
+		if(reviewEO==null) {
+			return null;
+		}
+		DoctorDTO.ReviewDTO dto=new DoctorDTO.ReviewDTO();
+		
+		dto.setReviewId(reviewEO.getReviewid());
+		dto.setRating(reviewEO.getRating());
+		dto.setComment(reviewEO.getComment());
+		dto.setCustomerName(reviewEO.getCustomername());
+		dto.setCustomerEmail(reviewEO.getCustomeremail());
+		dto.setDate(reviewEO.getDate());
+		return dto;
+	}
+	
+	public static DoctorEO.Review toReviewEntity(DoctorDTO.ReviewDTO reviewDTO) {
+		if(reviewDTO==null) {
+			return null;
+		}
+		DoctorEO.Review entity=new DoctorEO.Review();
+		
+		entity.setReviewid(reviewDTO.getReviewId());
+		entity.setRating(reviewDTO.getRating());
+		entity.setComment(reviewDTO.getComment());
+		entity.setCustomername(reviewDTO.getCustomerName());
+		entity.setCustomeremail(reviewDTO.getCustomerEmail());
+		entity.setDate(reviewDTO.getDate());
+		return entity;
+	}
+
+}

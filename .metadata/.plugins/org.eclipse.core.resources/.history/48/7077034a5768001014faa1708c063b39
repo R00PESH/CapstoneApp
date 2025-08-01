@@ -1,0 +1,28 @@
+package training.iqgateway.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import training.iqgateway.dto.ProviderDTO;
+import training.iqgateway.mapper.ProviderMapper;
+import training.iqgateway.model.ProviderEO;
+import training.iqgateway.service.ProviderService;
+
+@RestController
+@RequestMapping("/providers")
+public class ProviderController {
+	
+	@Autowired
+	private ProviderService provideSer;
+	
+	@PostMapping
+    public ProviderDTO createProvider(@RequestBody ProviderDTO providerDTO) {
+        ProviderEO entity = ProviderMapper.toEntity(providerDTO);
+        ProviderEO created = provideSer.createProvider(entity);
+        return ProviderMapper.toDTO(created);
+    }
+
+}

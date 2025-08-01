@@ -1,0 +1,36 @@
+package training.iqgateway.model;
+
+import java.time.Instant;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+public class DoctorEO {
+	
+	@Id
+	private String id;
+	
+	@Field("doc_Id")
+	private String docId;
+	
+	@Field("doc_Id")
+	private String hosId;
+	
+	private String name;
+	
+	@Field("license_number")
+	private String licenseNumber;
+	
+	private String qualification;
+	
+	private String specialization;
+	
+	@Field("years_of_practice")
+	private Instant yearsOfExp;
+	
+	@Field("availability_status")
+	private String availabilityStatus;
+	
+	p
+
+}

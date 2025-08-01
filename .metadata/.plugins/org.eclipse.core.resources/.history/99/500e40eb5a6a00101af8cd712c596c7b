@@ -1,0 +1,24 @@
+package training.iqgateway.service;
+
+
+
+import java.util.List;
+import training.iqgateway.dto.InsurancePlansDTO;
+
+public interface InsurancePlansService {
+
+    // CREATE
+    InsurancePlansDTO createPlan(InsurancePlansDTO plan);
+
+    // READ ALL
+    List<InsurancePlansDTO> getAllPlans();
+
+    // READ BY BUSINESS ID
+    InsurancePlansDTO getPlanById(Integer id);
+
+    // UPDATE
+    InsurancePlansDTO updatePlan(Integer id, InsurancePlansDTO plan);
+
+    // DELETE
+    void deletePlan(Integer id);
+}
