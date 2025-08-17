@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6880b3e661be97db57baca24"
+  },
+  "insurer_Id": "INS1234",
+  "name": "Deepak Ghosh",
+  "email": "deepak.ghosh@insuredesk.com",
+  "password": "passwordhash1",
+  "hire_date": {
+    "$date": "2022-04-21T00:00:00.000Z"
+  },
+  "active_status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6880b3e661be97db57baca25"
+  },
+  "insurer_Id": "INS4321",
+  "name": "Neha Verma",
+  "email": "neha.verma@insuredesk.com",
+  "password": "passwordhash2",
+  "hire_date": {
+    "$date": "2023-06-11T00:00:00.000Z"
+  },
+  "active_status": "Inactive"
+}]

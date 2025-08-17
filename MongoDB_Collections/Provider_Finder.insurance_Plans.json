@@ -1,0 +1,420 @@
+[{
+  "_id": {
+    "$oid": "68852de7a937e65bbfd01d43"
+  },
+  "id": 1,
+  "title": "Max Family Health Gold",
+  "amount": 17500,
+  "validity": {
+    "$date": "2026-12-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 201,
+      "coverName": "Hospitalization Expenses",
+      "description": "Covers in-patient expenses during hospitalization including room rent, doctor’s fees, etc.",
+      "coverAmount": "₹5,00,000"
+    },
+    {
+      "coverId": 202,
+      "coverName": "Pre & Post Hospitalization",
+      "description": "Covers medical expenses 30 days before and 60 days after hospitalization.",
+      "coverAmount": "₹50,000"
+    },
+    {
+      "coverId": 203,
+      "coverName": "Day Care Procedures",
+      "description": "Covers expenses for short procedures that do not require 24-hour hospitalization.",
+      "coverAmount": "₹10,000"
+    }
+  ],
+  "exclusion": "Cosmetic surgery, dental treatment, self-inflicted injuries"
+},
+{
+  "_id": {
+    "$oid": "68852de7a937e65bbfd01d44"
+  },
+  "id": 2,
+  "title": "Senior Health Plus",
+  "amount": 24000,
+  "validity": {
+    "$date": "2028-04-30T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "description": "Lump sum benefit on diagnosis of critical illnesses like cancer, heart attack, etc."
+    },
+    {
+      "description": "Cashless hospitalization at partner network hospitals."
+    }
+  ],
+  "exclusion": "Non-allopathic treatment, HIV/AIDS, congenital diseases, obesity surgery",
+  "_class": "training.iqgateway.model.InsurancePlansEO"
+},
+{
+  "_id": {
+    "$oid": "68852de7a937e65bbfd01d45"
+  },
+  "id": 3,
+  "title": "Basic Health Secure",
+  "amount": 8900,
+  "validity": {
+    "$date": "2025-12-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 206,
+      "coverName": "Accident Coverage",
+      "description": "Covers costs arising from accidents requiring emergency care and treatment.",
+      "coverAmount": "₹1,00,000"
+    },
+    {
+      "coverId": 207,
+      "coverName": "Ambulance Charges",
+      "description": "Reimbursement of ambulance transportation charges up to the limit.",
+      "coverAmount": "₹10,000"
+    }
+  ],
+  "exclusion": "Pregnancy, OPD expenses, injuries due to adventure sports"
+},
+{
+  "_id": {
+    "$oid": "688535b69cb55df019a9a1b8"
+  },
+  "id": 4,
+  "title": "Max Family Cover",
+  "amount": 22500,
+  "validity": {
+    "$date": "2027-04-30T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "description": "Lump sum benefit on diagnosis of critical illnesses like cancer, heart attack, etc."
+    },
+    {
+      "description": "Cashless hospitalization at partner network hospitals."
+    }
+  ],
+  "exclusion": "Non-allopathic treatment, HIV/AIDS, congenital diseases",
+  "_class": "training.iqgateway.model.InsurancePlansEO"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f7f"
+  },
+  "id": "id_68852de7a937e65bbfd01a1",
+  "title": "Care Secure Silver Plus",
+  "amount": 18000,
+  "validity": {
+    "$date": "2026-12-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 301,
+      "coverName": "Hospital Room Rent",
+      "description": "Covers up to a set room rent during hospitalization.",
+      "coverAmount": "₹4,00,000"
+    },
+    {
+      "coverId": 311,
+      "coverName": "Pre & Post Hospitalization",
+      "description": "Covers 60 days before and 90 days after hospital stay.",
+      "coverAmount": "₹40,000"
+    },
+    {
+      "coverId": 321,
+      "coverName": "Ambulance Charges",
+      "description": "Ambulance expenses for patient transfer up to insured amount.",
+      "coverAmount": "₹2,000"
+    }
+  ],
+  "exclusion": "Infertility treatment, dental procedures, cosmetic procedures"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f80"
+  },
+  "id": "id_68852de7a937e65bbfd01a2",
+  "title": "Health Shield Supreme",
+  "amount": 19999,
+  "validity": {
+    "$date": "2026-10-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 302,
+      "coverName": "Surgery Cover",
+      "description": "Covers expenses for both minor and major surgeries.",
+      "coverAmount": "₹8,00,000"
+    },
+    {
+      "coverId": 312,
+      "coverName": "Day Care Procedures",
+      "description": "Includes 50+ day-care procedures without 24-hour stay.",
+      "coverAmount": "₹25,000"
+    },
+    {
+      "coverId": 322,
+      "coverName": "Domiciliary Hospitalization",
+      "description": "Treatment at home when hospital bed not available.",
+      "coverAmount": "₹30,000"
+    }
+  ],
+  "exclusion": "HIV/AIDS, genetic disorders, cosmetic surgery"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f81"
+  },
+  "id": "id_68852de7a937e65bbfd01a3",
+  "title": "Wellness Family Protect",
+  "amount": 15600,
+  "validity": {
+    "$date": "2026-09-30T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 303,
+      "coverName": "Critical Illness",
+      "description": "Lump-sum benefit on detection of serious illnesses.",
+      "coverAmount": "₹10,00,000"
+    },
+    {
+      "coverId": 313,
+      "coverName": "Hospital Cash",
+      "description": "Daily benefit for hospital stay beyond 24 hours.",
+      "coverAmount": "₹1,500/day"
+    },
+    {
+      "coverId": 323,
+      "coverName": "Organ Donor Cover",
+      "description": "Covers expenses for organ donor procedures.",
+      "coverAmount": "₹1,50,000"
+    }
+  ],
+  "exclusion": "Pre-existing diseases for 2 years, dental, weight control treatments"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f82"
+  },
+  "id": "id_68852de7a937e65bbfd01a4",
+  "title": "MediAssist Comfort Plan",
+  "amount": 20250,
+  "validity": {
+    "$date": "2026-08-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 304,
+      "coverName": "Hospitalization Expenses",
+      "description": "All in-patient hospitalization costs including medication.",
+      "coverAmount": "₹7,50,000"
+    },
+    {
+      "coverId": 314,
+      "coverName": "Newborn Baby Cover",
+      "description": "Covers medical care for newborns up to 3 months.",
+      "coverAmount": "₹50,000"
+    },
+    {
+      "coverId": 324,
+      "coverName": "Vaccination Expenses",
+      "description": "Covers vaccinations in the first year after birth.",
+      "coverAmount": "₹8,000"
+    }
+  ],
+  "exclusion": "OPD expenses, vision correction, experimental treatments"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f83"
+  },
+  "id": "id_68852de7a937e65bbfd01a5",
+  "title": "Platinum Plus Mediclaim",
+  "amount": 23000,
+  "validity": {
+    "$date": "2026-07-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 305,
+      "coverName": "Pre-Existing Diseases",
+      "description": "Coverage after 2-year waiting period.",
+      "coverAmount": "₹3,00,000"
+    },
+    {
+      "coverId": 315,
+      "coverName": "ICU Charges",
+      "description": "ICU room rent and nursing expenses included.",
+      "coverAmount": "₹2,00,000"
+    },
+    {
+      "coverId": 325,
+      "coverName": "Alternative Treatments",
+      "description": "Ayush and other non-allopathic treatments.",
+      "coverAmount": "₹40,000"
+    }
+  ],
+  "exclusion": "Cosmetic treatments, self-inflicted injuries, war injuries"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f84"
+  },
+  "id": "id_68852de7a937e65bbfd01a6",
+  "title": "Family First Secure",
+  "amount": 14900,
+  "validity": {
+    "$date": "2026-11-15T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 306,
+      "coverName": "Maternity Cover",
+      "description": "Expenses for delivery and related complications.",
+      "coverAmount": "₹75,000"
+    },
+    {
+      "coverId": 316,
+      "coverName": "Child Vaccination",
+      "description": "Vaccination charges for first child up to 2 years.",
+      "coverAmount": "₹12,000"
+    },
+    {
+      "coverId": 326,
+      "coverName": "Annual Health Checks",
+      "description": "Health check-ups for family members each year.",
+      "coverAmount": "₹3,000"
+    }
+  ],
+  "exclusion": "Sexually transmitted diseases, infertility treatments, dental care"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f85"
+  },
+  "id": "id_68852de7a937e65bbfd01a7",
+  "title": "EasyCare Health Prime",
+  "amount": 21000,
+  "validity": {
+    "$date": "2026-10-15T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 307,
+      "coverName": "Outpatient Expenses",
+      "description": "Covers select OPD treatments for listed ailments.",
+      "coverAmount": "₹20,000"
+    },
+    {
+      "coverId": 317,
+      "coverName": "Free Second Opinion",
+      "description": "Consultation expenses for second opinion.",
+      "coverAmount": "₹5,000"
+    },
+    {
+      "coverId": 327,
+      "coverName": "Medicines & Consumables",
+      "description": "Covers pharmacy bills up to the sum insured.",
+      "coverAmount": "₹25,000"
+    }
+  ],
+  "exclusion": "Cosmetic, experimental medicine, dental"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f86"
+  },
+  "id": "id_68852de7a937e65bbfd01a8",
+  "title": "LifeGuard Ultra Value",
+  "amount": 22500,
+  "validity": {
+    "$date": "2026-06-30T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 308,
+      "coverName": "COVID-19 Hospitalization",
+      "description": "Covers in-patient care and ICU during COVID-19.",
+      "coverAmount": "₹7,00,000"
+    },
+    {
+      "coverId": 318,
+      "coverName": "Cancer Care Cover",
+      "description": "Specific cancer-related treatment coverage.",
+      "coverAmount": "₹2,50,000"
+    },
+    {
+      "coverId": 328,
+      "coverName": "Personal Accident Benefit",
+      "description": "Compensation for accidental disability.",
+      "coverAmount": "₹1,00,000"
+    }
+  ],
+  "exclusion": "Genetic illness, elective surgeries, dental care"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f87"
+  },
+  "id": "id_68852de7a937e65bbfd01a9",
+  "title": "Prime Asset MediCare",
+  "amount": 18500,
+  "validity": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 309,
+      "coverName": "Dialysis Cover",
+      "description": "Insures regular dialysis as an outpatient.",
+      "coverAmount": "₹1,50,000"
+    },
+    {
+      "coverId": 319,
+      "coverName": "Hospital Cash",
+      "description": "Cash benefit for day-care admissions.",
+      "coverAmount": "₹1,000/day"
+    },
+    {
+      "coverId": 329,
+      "coverName": "Family No Claim Bonus",
+      "description": "Increased coverage for each claim-free year.",
+      "coverAmount": "₹15,000/year"
+    }
+  ],
+  "exclusion": "Alternative medicine, dental, vision, vaccinations"
+},
+{
+  "_id": {
+    "$oid": "688646d28867adb41a092f88"
+  },
+  "id": "1000",
+  "title": "Fortune Health Advantage",
+  "amount": 24000,
+  "validity": {
+    "$date": "2026-12-15T00:00:00.000Z"
+  },
+  "covers": [
+    {
+      "coverId": 310,
+      "coverName": "Worldwide Cover",
+      "description": "Hospitalization expenses incurred outside India.",
+      "coverAmount": "₹6,00,000"
+    },
+    {
+      "coverId": 320,
+      "coverName": "Mental Health Cover",
+      "description": "Covers psychiatric evaluation and treatment.",
+      "coverAmount": "₹50,000"
+    },
+    {
+      "coverId": 330,
+      "coverName": "Annual Health Screening",
+      "description": "Advanced annual health checkups for adults.",
+      "coverAmount": "₹7,500"
+    }
+  ],
+  "exclusion": "Obesity, drug abuse, self-harm related treatment"
+}]

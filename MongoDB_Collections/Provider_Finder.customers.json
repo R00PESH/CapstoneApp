@@ -1,0 +1,403 @@
+[{
+  "_id": {
+    "$oid": "6880af7e61be97db57baca1b"
+  },
+  "name": "Raghav",
+  "email": "roopeshburra@gmail.com",
+  "password": "Roopesh@123",
+  "date_of_birth": {
+    "$date": "1985-03-10T00:00:00.000Z"
+  },
+  "gender": "male",
+  "adhar_num": "123456789012",
+  "address": "56, Sector 44, Gurgaon",
+  "zipcode": {
+    "$numberLong": "122002"
+  },
+  "lat": 28.4595,
+  "lon": 77.0266,
+  "Nominee": "Raj Singh",
+  "nominee_adhar_numb": "234567890123",
+  "insurance_Plans": [
+    "Max Family Cover",
+    "Senior Health Plus",
+    "Basic Health Secure"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.0266,
+      28.4595
+    ]
+  },
+  "_class": "training.iqgateway.entity.CustomerEO"
+},
+{
+  "_id": {
+    "$oid": "688540edc8b21d32e8fdce65"
+  },
+  "name": "Ravi Shah",
+  "email": "ravishah.business@mail.com",
+  "password": "hashedpw2024",
+  "date_of_birth": {
+    "$date": "1982-05-13T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "adhar_num": "111122333333",
+  "contact_num": "90076512",
+  "address": "204/B, Sindhu Apartment, Ghatkopar, Mumbai",
+  "zipcode": {
+    "$numberLong": "400077"
+  },
+  "lat": 19.0969,
+  "lon": 72.8826,
+  "Nominee": "Neha Shah",
+  "nominee_adhar_numb": "889900112211",
+  "insurance_Plans": [
+    "Max Family Cover",
+    "Child Cover Plan"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      72.8826,
+      19.0969
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0016880af7e61be97db57baca1",
+  "name": "Virat Kohli",
+  "email": "viratkohli@email.com",
+  "password": "hashedpassword1",
+  "date_of_birth": "1985-03-10T00:00:00.000Z",
+  "gender": "Male",
+  "adhar_num": "123456789001",
+  "address": "10, MG Road, Bangalore",
+  "zipcode": 560001,
+  "lat": 12.995,
+  "lon": 77.58,
+  "Nominee": "Anjali Kohli",
+  "nominee_adhar_numb": "234567890102",
+  "insurance_Plans": [
+    "Care Secure Silver Plus",
+    "Health Shield Supreme",
+    "Wellness Family Protect"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.58,
+      12.995
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0026880af7e61be97db57baca2",
+  "name": "MS Dhoni",
+  "email": "msdhoni@gmail.com",
+  "password": "NewPassword",
+  "date_of_birth": {
+    "$date": "1986-03-10T00:00:00.000Z"
+  },
+  "gender": "Female",
+  "adhar_num": "123456789002",
+  "address": "13, MG Road, Bangalore",
+  "zipcode": {
+    "$numberLong": "560006"
+  },
+  "lat": 12.96,
+  "lon": 77.65,
+  "Nominee": "Kavita Dhoni",
+  "nominee_adhar_numb": "234567890103",
+  "insurance_Plans": [
+    "Health Shield Supreme",
+    "Wellness Family Protect",
+    "MediAssist Comfort Plan"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.65,
+      12.96
+    ]
+  },
+  "_class": "training.iqgateway.entity.CustomerEO"
+},
+{
+  "_id": "cust_0036880af7e61be97db57baca3",
+  "name": "Sachin Tendulkar",
+  "email": "sachintendulkar@email.com",
+  "password": "hashedpassword3",
+  "date_of_birth": "1987-03-10T00:00:00.000Z",
+  "gender": "Male",
+  "adhar_num": "123456789003",
+  "address": "16, MG Road, Bangalore",
+  "zipcode": 560011,
+  "lat": 13,
+  "lon": 77.59,
+  "Nominee": "Shraddha Tendulkar",
+  "nominee_adhar_numb": "234567890104",
+  "insurance_Plans": [
+    "Wellness Family Protect",
+    "MediAssist Comfort Plan",
+    "Platinum Plus Mediclaim"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.59,
+      13
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0046880af7e61be97db57baca4",
+  "name": "Rahul Dravid",
+  "email": "rahuldravid@email.com",
+  "password": "hashedpassword4",
+  "date_of_birth": "1988-03-10T00:00:00.000Z",
+  "gender": "Female",
+  "adhar_num": "123456789004",
+  "address": "19, MG Road, Bangalore",
+  "zipcode": 560016,
+  "lat": 12.97,
+  "lon": 77.72,
+  "Nominee": "Deepa Dravid",
+  "nominee_adhar_numb": "234567890105",
+  "insurance_Plans": [
+    "MediAssist Comfort Plan",
+    "Platinum Plus Mediclaim",
+    "Family First Secure"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.72,
+      12.97
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0056880af7e61be97db57baca5",
+  "name": "Sourav Ganguly",
+  "email": "souravganguly@email.com",
+  "password": "hashedpassword5",
+  "date_of_birth": "1989-03-10T00:00:00.000Z",
+  "gender": "Male",
+  "adhar_num": "123456789005",
+  "address": "22, MG Road, Bangalore",
+  "zipcode": 560021,
+  "lat": 12.95,
+  "lon": 77.69,
+  "Nominee": "Nisha Ganguly",
+  "nominee_adhar_numb": "234567890106",
+  "insurance_Plans": [
+    "Platinum Plus Mediclaim",
+    "Family First Secure",
+    "EasyCare Health Prime"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.69,
+      12.95
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0066880af7e61be97db57baca6",
+  "name": "Anil Kumble",
+  "email": "anilkumble@email.com",
+  "password": "hashedpassword6",
+  "date_of_birth": "1985-03-10T00:00:00.000Z",
+  "gender": "Female",
+  "adhar_num": "123456789006",
+  "address": "25, MG Road, Bangalore",
+  "zipcode": 560026,
+  "lat": 12.94,
+  "lon": 77.56,
+  "Nominee": "Sneha Kumble",
+  "nominee_adhar_numb": "234567890107",
+  "insurance_Plans": [
+    "Family First Secure",
+    "EasyCare Health Prime",
+    "LifeGuard Ultra Value"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.56,
+      12.94
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0076880af7e61be97db57baca7",
+  "name": "VVS Laxman",
+  "email": "vvslaxman@email.com",
+  "password": "hashedpassword7",
+  "date_of_birth": "1986-03-10T00:00:00.000Z",
+  "gender": "Male",
+  "adhar_num": "123456789007",
+  "address": "28, MG Road, Bangalore",
+  "zipcode": 560031,
+  "lat": 12.93,
+  "lon": 77.58,
+  "Nominee": "Pooja Laxman",
+  "nominee_adhar_numb": "234567890108",
+  "insurance_Plans": [
+    "EasyCare Health Prime",
+    "LifeGuard Ultra Value",
+    "Prime Asset MediCare"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.58,
+      12.93
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0086880af7e61be97db57baca8",
+  "name": "Yuvraj Singh",
+  "email": "yuvrajsingh@email.com",
+  "password": "hashedpassword8",
+  "date_of_birth": "1987-03-10T00:00:00.000Z",
+  "gender": "Female",
+  "adhar_num": "123456789008",
+  "address": "31, MG Road, Bangalore",
+  "zipcode": 560036,
+  "lat": 12.98,
+  "lon": 77.5,
+  "Nominee": "Ritu Singh",
+  "nominee_adhar_numb": "234567890109",
+  "insurance_Plans": [
+    "LifeGuard Ultra Value",
+    "Prime Asset MediCare",
+    "Fortune Health Advantage"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.5,
+      12.98
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0096880af7e61be97db57baca9",
+  "name": "RamReddy",
+  "email": "ram@gmail.com",
+  "date_of_birth": {
+    "$date": "2025-08-05T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "adhar_num": "123456789009",
+  "contact_num": "1234567890",
+  "address": "Chennai",
+  "zipcode": {
+    "$numberLong": "123456"
+  },
+  "lat": 9.09,
+  "lon": 120.132,
+  "Nominee": "Reddy",
+  "nominee_adhar_numb": "123453456789",
+  "insurance_Plans": [
+    "Family First Secure",
+    "Platinum Plus Mediclaim",
+    "Wellness Family Protect"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      120.132,
+      9.09
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": "cust_0106880af7e61be97db57baca10",
+  "name": "Rohit Sharma",
+  "email": "rohitsharma@email.com",
+  "password": "hashedpassword10",
+  "date_of_birth": "1989-03-10T00:00:00.000Z",
+  "gender": "Female",
+  "adhar_num": "123456789010",
+  "address": "37, MG Road, Bangalore",
+  "zipcode": 560046,
+  "lat": 12.92,
+  "lon": 77.62,
+  "Nominee": "Sonal Sharma",
+  "nominee_adhar_numb": "234567890111",
+  "insurance_Plans": [
+    "Fortune Health Advantage",
+    "Care Secure Silver Plus",
+    "Health Shield Supreme"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      77.62,
+      12.92
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+},
+{
+  "_id": {
+    "$oid": "689e0da8cd778190b1aa2d65"
+  },
+  "name": "Ram",
+  "email": "ram123@gmail.com",
+  "password": "passwordhash1",
+  "date_of_birth": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "adhar_num": "245678953356",
+  "contact_num": "7999385009",
+  "address": "Chennai",
+  "zipcode": {
+    "$numberLong": "517571"
+  },
+  "lat": 12.09,
+  "lon": 120.98,
+  "Nominee": "Naveen",
+  "nominee_adhar_numb": "123450909899",
+  "insurance_Plans": [
+    "Platinum Plus Mediclaim",
+    "Wellness Family Protect"
+  ],
+  "status": "Active",
+  "geoLocation": {
+    "type": "Point",
+    "coordinates": [
+      120.98,
+      12.09
+    ]
+  },
+  "_class": "training.iqgateway.model.CustomerEO"
+}]
