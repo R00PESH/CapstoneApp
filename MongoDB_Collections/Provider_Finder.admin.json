@@ -1,0 +1,21 @@
+[{
+  "_id": 1,
+  "name": "Virat Kohli",
+  "email": "virat.kohli@gmail.com",
+  "password": "hashed_password1",
+  "role": "superadmin"
+},
+{
+  "_id": 2,
+  "name": "Rohit Sharma",
+  "email": "rohit.sharma@gmail.com",
+  "password": "hashed_password2",
+  "role": "admin"
+},
+{
+  "_id": 3,
+  "name": "MS Dhoni",
+  "email": "ms.dhoni@gmail.com",
+  "password": "hashed_password3",
+  "role": "moderator"
+}]

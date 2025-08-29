@@ -1,0 +1,15 @@
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\config\RestTemplateConfig.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\controller\CustomerController.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\controller\CustomerDoctorController.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\controller\CustomerProviderController.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\CustomersApplication.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\dto\CustomerDTO.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\dto\DoctorDTO.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\dto\ProviderDTO.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\mapper\CustomerMapper.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\model\CustomerEO.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\repo\CustomerRepository.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\service\CustomerService.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\service\impl\CustomerServiceImpl.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\service\impl\DoctorClientService.java
+D:\Training\Spring\NewWorksapce\Customers\src\main\java\training\iqgateway\service\impl\ProviderClientService.java

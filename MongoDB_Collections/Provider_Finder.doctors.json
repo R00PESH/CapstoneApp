@@ -1,0 +1,1338 @@
+[{
+  "_id": {
+    "$oid": "6883647b52d004ae699dd511"
+  },
+  "doc_Id": "DOC1001",
+  "hos_Id": "HOS@123",
+  "name": "Dr. Amit Sharma",
+  "license_number": "MH123456",
+  "qualification": "MBBS, MD, DM",
+  "specialization": "Cardiology",
+  "years_of_practice": 12.5,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2012-06-15T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 101,
+      "customer_name": "Rahul Gupta",
+      "customer_email": "rahul.gupta@email.com",
+      "rating": 5,
+      "comment": "Excellent cardiologist!",
+      "date": {
+        "$date": "2021-05-21T09:30:00.000Z"
+      }
+    }
+  ],
+  "rating": 5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "6883647b52d004ae699dd512"
+  },
+  "doc_Id": "DOC1002",
+  "hos_Id": "Hos@124",
+  "name": "Dr. Priya Sharma",
+  "license_number": "DL654321",
+  "qualification": "MBBS, MS",
+  "specialization": "Orthopedics",
+  "years_of_practice": 8,
+  "availability_status": "UnAvailable",
+  "joining_date": {
+    "$date": "2016-09-20T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 103,
+      "customer_name": "Deepak Jain",
+      "customer_email": "deepak.jain@email.com",
+      "rating": 4,
+      "comment": "Helped me recover quickly from knee pain.",
+      "date": {
+        "$date": "2023-02-17T10:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "M S Dhoni",
+      "customer_email": "msdhoni@gmail.com",
+      "rating": 4,
+      "comment": "Great Service",
+      "date": {
+        "$date": "2025-08-04T18:17:06.163Z"
+      }
+    }
+  ],
+  "rating": 4,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "6883647b52d004ae699dd513"
+  },
+  "id": 3,
+  "doc_Id": "DOC1003",
+  "name": "Dr. Rohit Kapoor",
+  "hos_Id": "HOS@123",
+  "license_number": "KA789012",
+  "qualification": "MBBS",
+  "specialization": "General Medicine",
+  "years_of_practice": 5.75,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2019-01-05T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 104,
+      "customer_name": "Meena Joshi",
+      "customer_email": "meena.joshi@email.com",
+      "rating": 5,
+      "comment": "Friendly and helpful.",
+      "date": {
+        "$date": "2024-01-03T14:45:00.000Z"
+      }
+    },
+    {
+      "review_id": 105,
+      "customer_name": "Sourabh Patil",
+      "customer_email": "sourabh.patil@email.com",
+      "rating": 4,
+      "comment": "Good listener, recommended.",
+      "date": {
+        "$date": "2023-11-11T11:30:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5
+},
+{
+  "_id": {
+    "$oid": "6883647b52d004ae699dd514"
+  },
+  "doc_Id": "DOC1004",
+  "hos_Id": "\"HOS@123\"",
+  "name": "Dr. Anita Iyer",
+  "license_number": "TN341256",
+  "qualification": "MBBS, DGO",
+  "specialization": "Gynecology",
+  "years_of_practice": 10.2,
+  "availability_status": "unAvailable",
+  "joining_date": {
+    "$date": "2014-03-28T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 106,
+      "customer_name": "Ankita Mehra",
+      "customer_email": "ankita.mehra@email.com",
+      "rating": 5,
+      "comment": "Makes you feel comfortable, highly recommended.",
+      "date": {
+        "$date": "2022-05-15T08:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 104,
+      "customer_name": "Priya Singh",
+      "customer_email": "priyasingh@email.com",
+      "rating": 4.5,
+      "comment": "Helped me recover quickly from Heart pain.",
+      "date": {
+        "$date": "2023-02-17T10:00:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.8,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f89"
+  },
+  "id": "6883647b52d004ae699dd501",
+  "doc_Id": "DOC1005",
+  "hos_Id": "Hos@101",
+  "name": "Dr. Amit Sinha",
+  "license_number": "KA101256M",
+  "qualification": "MBBS, MD (General Medicine)",
+  "specialization": "Cardiology",
+  "years_of_practice": 12.5,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2012-06-15T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 101,
+      "customer_name": "Rahul Gupta",
+      "customer_email": "rahul.gupta@email.com",
+      "rating": 5,
+      "comment": "Excellent cardiologist!",
+      "date": {
+        "$date": "2021-05-21T09:30:00.000Z"
+      }
+    },
+    {
+      "review_id": 102,
+      "customer_name": "Priya Singh",
+      "customer_email": "priyasingh@email.com",
+      "rating": 4,
+      "comment": "Very experienced.",
+      "date": {
+        "$date": "2022-09-10T16:15:00.000Z"
+      }
+    },
+    {
+      "review_id": 103,
+      "customer_name": "Suresh Nair",
+      "customer_email": "sureshnair@email.com",
+      "rating": 5,
+      "comment": "Highly recommended!",
+      "date": {
+        "$date": "2023-03-15T11:45:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.7,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8a"
+  },
+  "id": "6883647b52d004ae699dd502",
+  "doc_Id": "DOC1006",
+  "hos_Id": "Hos@101",
+  "name": "Dr. Sneha Sharma",
+  "license_number": "KA102350C",
+  "qualification": "MBBS, MD (Cardiology)",
+  "specialization": "Cardiology",
+  "years_of_practice": 10,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2014-08-02T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 104,
+      "customer_name": "Harish Reddy",
+      "customer_email": "harish.reddy@email.com",
+      "rating": 5,
+      "comment": "Very caring and attentive.",
+      "date": {
+        "$date": "2022-01-10T08:10:00.000Z"
+      }
+    }
+  ],
+  "rating": 5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8b"
+  },
+  "doc_Id": "DOC1007",
+  "hos_Id": "Hos@102",
+  "name": "Dr. Arjun Rao",
+  "license_number": "KA103785D",
+  "qualification": "MBBS, DM (Cardiology)",
+  "specialization": "Cardiology",
+  "years_of_practice": 15,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2010-04-28T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 105,
+      "customer_name": "Sunita D",
+      "customer_email": "sunita.d@email.com",
+      "rating": 4,
+      "comment": "Good diagnosis.",
+      "date": {
+        "$date": "2022-02-19T13:05:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "M S Dhoni",
+      "customer_email": "msdhoni@gmail.com",
+      "rating": 3,
+      "comment": "Perfect Analysis",
+      "date": {
+        "$date": "2025-08-04T07:39:32.475Z"
+      }
+    }
+  ],
+  "rating": 3.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8c"
+  },
+  "doc_Id": "DOC1008",
+  "hos_Id": "HOS@323",
+  "name": "Dr. Nivedita Mehra",
+  "license_number": "KA104289E",
+  "qualification": "MBBS, MD (General Medicine)",
+  "specialization": "General Medicine",
+  "years_of_practice": 14,
+  "availability_status": "Unavailable",
+  "joining_date": {
+    "$date": "2011-09-16T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 106,
+      "customer_name": "Rakesh Mohan",
+      "customer_email": "rakeshm@email.com",
+      "rating": 5,
+      "comment": "Approachable and skilled.",
+      "date": {
+        "$date": "2022-07-25T15:22:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Rahul Dravid",
+      "customer_email": "rahuldravid@email.com",
+      "rating": 3,
+      "comment": "Success"
+    }
+  ],
+  "rating": 4,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8d"
+  },
+  "doc_Id": "DOC1009",
+  "hos_Id": "Hos@103",
+  "name": "Dr. Ramesh K",
+  "license_number": "KA120895F",
+  "qualification": "MBBS, MS (Orthopedics)",
+  "specialization": "Orthopedics",
+  "years_of_practice": 9,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2015-11-20T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 107,
+      "customer_name": "Manoj Kumar",
+      "customer_email": "manojk@email.com",
+      "rating": 4,
+      "comment": "Great surgeon for knee issues.",
+      "date": {
+        "$date": "2023-02-03T11:10:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "rating": 4,
+      "comment": "Nice Service",
+      "date": {
+        "$date": "2025-08-04T07:30:26.093Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "ram",
+      "customer_email": "ram@gamil.com",
+      "rating": 5,
+      "comment": "Great Service",
+      "date": {
+        "$date": "2025-08-04T07:38:32.229Z"
+      }
+    }
+  ],
+  "rating": 4.3,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8e"
+  },
+  "doc_Id": "DOC1208",
+  "hos_Id": "Hos@103",
+  "name": "Dr. Parul Verma",
+  "license_number": "KA120899G",
+  "qualification": "MBBS, MS (Orthopedics)",
+  "specialization": "Orthopedics",
+  "years_of_practice": 7.2,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2017-03-13T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 108,
+      "customer_name": "Kiran P",
+      "customer_email": "kiran.p@email.com",
+      "rating": 5,
+      "comment": "Explains everything in detail.",
+      "date": {
+        "$date": "2022-12-06T14:50:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Rahul Dravid",
+      "customer_email": "rahuldravid@email.com",
+      "rating": 5,
+      "comment": "Success"
+    },
+    {
+      "review_id": 0,
+      "customer_name": "M S Dhoni",
+      "customer_email": "msdhoni@gmail.com",
+      "rating": 4,
+      "comment": "Good treatment but waiting time was a bit long.",
+      "date": {
+        "$date": "2025-08-05T09:11:59.539Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Vikram Singh",
+      "customer_email": "vikramsingh@gmail.com",
+      "rating": 3,
+      "comment": "Taking More time to Analyze the exact Issue.",
+      "date": {
+        "$date": "2025-08-05T09:14:12.053Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Pooja Shah",
+      "customer_email": "poojashah@gmail.com",
+      "rating": 5,
+      "comment": "Highly skilled surgeons, excellent post-op care.",
+      "date": {
+        "$date": "2025-08-05T09:16:14.838Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "",
+      "customer_email": "",
+      "rating": 5,
+      "comment": "Success",
+      "date": {
+        "$date": "2025-08-05T18:54:20.919Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "",
+      "customer_email": "",
+      "rating": 3,
+      "comment": "kjhv",
+      "date": {
+        "$date": "2025-08-05T18:56:27.625Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Sourav Ganguly",
+      "customer_email": "souravganguly@email.com",
+      "rating": 3,
+      "comment": "Success",
+      "date": {
+        "$date": "2025-08-05T21:12:14.923Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Sachin Tendulkar",
+      "customer_email": "sachintendulkar@email.com",
+      "rating": 5,
+      "comment": "Great",
+      "date": {
+        "$date": "2025-08-06T13:08:54.821Z"
+      }
+    }
+  ],
+  "rating": 4.2,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f8f"
+  },
+  "doc_Id": "DOC1301",
+  "hos_Id": "Hos@104",
+  "name": "Dr. Vinay Jain",
+  "license_number": "KA130351H",
+  "qualification": "MBBS, DM (Neurology)",
+  "specialization": "Neurology",
+  "years_of_practice": 11.5,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2013-08-18T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 109,
+      "customer_name": "Nidhi V",
+      "customer_email": "nidhi.v@email.com",
+      "rating": 5,
+      "comment": "Very patient with explanations.",
+      "date": {
+        "$date": "2021-09-19T17:22:00.000Z"
+      }
+    }
+  ],
+  "rating": 5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f90"
+  },
+  "doc_Id": "DOC1501",
+  "hos_Id": "Hos@106",
+  "name": "Dr. Preeti Thomas",
+  "license_number": "KA150998J",
+  "qualification": "MBBS, DM (Oncology)",
+  "specialization": "Oncology",
+  "years_of_practice": 13,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2011-05-11T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 110,
+      "customer_name": "S. Chandra",
+      "customer_email": "chandra.s@email.com",
+      "rating": 5,
+      "comment": "Empathetic and highly knowledgeable.",
+      "date": {
+        "$date": "2022-11-23T13:25:00.000Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Naveen Joshi",
+      "customer_email": "naveen.j@insurance.com",
+      "rating": 4,
+      "comment": "Great Patience!"
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Rahul Dravid",
+      "customer_email": "rahuldravid@email.com",
+      "rating": 3,
+      "comment": "Success"
+    }
+  ],
+  "rating": 4,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68864b138867adb41a092f92"
+  },
+  "id": "6883647b52d004ae699dd510",
+  "doc_Id": "DOC1705",
+  "hos_Id": "Hos@108",
+  "name": "Dr. Krishna Murthy",
+  "license_number": "KA170182M",
+  "qualification": "MBBS, DM (Gastroenterology)",
+  "specialization": "Gastroenterology",
+  "years_of_practice": 14,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2010-02-18T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 112,
+      "customer_name": "Aditi Rao",
+      "customer_email": "aditi.rao@email.com",
+      "rating": 5,
+      "comment": "Best liver specialist.",
+      "date": {
+        "$date": "2022-10-02T10:05:00.000Z"
+      }
+    }
+  ],
+  "rating": 5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997de8925697b8949a81fe"
+  },
+  "doc_Id": "DOC1706",
+  "hos_Id": "Hos@M001",
+  "name": "Dr Satyadev",
+  "license_number": "LICNO@325143",
+  "qualification": "MS",
+  "specialization": "Neurologist",
+  "years_of_practice": 6,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-08-11T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 0,
+      "customer_name": "Anil Verma",
+      "customer_email": "anil.verma@gmail.com",
+      "rating": 4,
+      "comment": "Dr. Satyadev diagnosed my migraine condition with great accuracy. She patiently explained the causes and guided me through lifestyle changes that greatly reduced my headaches. Her treatment method was kind, precise, and effective.",
+      "date": {
+        "$date": "2025-08-11T05:19:28.952Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Ritika Sharma",
+      "customer_email": "ritika.sharma@email.com",
+      "rating": 3,
+      "comment": "I had been struggling with sleep-related neurological issues for months. Dr. Satyadev’s thorough evaluation and calm demeanor were reassuring. The only drawback was the waiting period for appointments, but her care made it worthwhile.",
+      "date": {
+        "$date": "2025-08-11T05:20:13.991Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Vikrant Rao",
+      "customer_email": "vikrant.rao@gmail.com",
+      "rating": 5,
+      "comment": "He is a highly skilled neurologist who helped my father recover from a stroke. Her rehabilitation plan was detailed, and she worked closely with the physiotherapy team to monitor progress. The compassionate approach really stood out.",
+      "date": {
+        "$date": "2025-08-11T05:21:08.357Z"
+      }
+    }
+  ],
+  "rating": 4,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997ee2925697b8949a81ff"
+  },
+  "doc_Id": "DOC1707",
+  "hos_Id": "Hos@103",
+  "name": "Dr . Raghav Menon",
+  "license_number": "LICNO@098765",
+  "qualification": "MBBS",
+  "specialization": "Orthopedic Surgeon",
+  "years_of_practice": 11,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-08-11T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 0,
+      "customer_name": "Sneha Kulkarni",
+      "customer_email": "sneha.kulkarni@gmail.com",
+      "rating": 4,
+      "comment": "Dr. Menon treated my knee injury with great attention to detail. He suggested non-surgical measures first, which worked surprisingly well. His friendly attitude made the recovery journey less stressful.",
+      "date": {
+        "$date": "2025-08-11T05:24:33.700Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Harish Iyer",
+      "customer_email": "harish.iyer@gmail.com",
+      "rating": 3,
+      "comment": "The diagnosis was accurate and treatment effective, but I felt rushed during follow-up visits. The clinic was crowded, making it difficult to speak at length about my concerns. Still, his expertise in orthopedics is commendable.",
+      "date": {
+        "$date": "2025-08-11T05:25:07.554Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Megha Chaturvedi",
+      "customer_email": "megha.chaturvedi@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Menon successfully performed a ligament surgery on my son. His pre-surgery counseling was clear and reassuring. My son recovered faster than expected, thanks to his personalized rehabilitation plan.",
+      "date": {
+        "$date": "2025-08-11T05:25:46.592Z"
+      }
+    }
+  ],
+  "rating": 4,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8200"
+  },
+  "doc_Id": "DOC1708",
+  "hos_Id": "Hos@109",
+  "name": "Dr. Ayesha Khan",
+  "license_number": "LICNO@654321",
+  "qualification": "MD",
+  "specialization": "Pediatrician",
+  "years_of_practice": 9,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-07-09T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 0,
+      "customer_name": "Arun Pillai",
+      "customer_email": "arun.pillai@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Khan is amazing with children. She listens carefully and makes sure to explain everything in simple terms to parents. My son actually enjoys visiting her clinic now!",
+      "date": {
+        "$date": "2025-08-11T05:27:56.109Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Nisha Prasad",
+      "customer_email": "nisha.prasad@gmail.com",
+      "rating": 4,
+      "comment": "She quickly diagnosed my daughter’s allergy problem and recommended a very effective treatment plan. The follow-ups went smoothly. The only minor issue was getting a timely appointment during peak seasons",
+      "date": {
+        "$date": "2025-08-11T05:28:30.978Z"
+      }
+    },
+    {
+      "review_id": 0,
+      "customer_name": "Rohan Malhotra",
+      "customer_email": "rohan.malhotra@gmal.com",
+      "rating": 5,
+      "comment": "Dr. Khan has been my child’s pediatrician since birth. She has a calm and caring approach, which puts both parents and children at ease. Her advice on nutrition and developmental milestones is always very helpful.",
+      "date": {
+        "$date": "2025-08-11T05:29:01.434Z"
+      }
+    }
+  ],
+  "rating": 4.7,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8201"
+  },
+  "doc_Id": "DOC1709",
+  "hos_Id": "Hos@110",
+  "name": "Dr. Rajeev Menon",
+  "license_number": "LICNO@654322",
+  "qualification": "MBBS, MD",
+  "specialization": "Cardiologist",
+  "years_of_practice": 12,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Sneha Varma",
+      "customer_email": "sneha.varma@gmail.com",
+      "rating": 5,
+      "comment": "Excellent doctor who takes the time to explain every procedure in detail. He ensures that the patient is comfortable and understands the risks and benefits. His reassuring manner makes a stressful situation easier to handle.",
+      "date": {
+        "$date": "2025-08-01T09:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Pranav Iyer",
+      "customer_email": "pranav.iyer@yahoo.com",
+      "rating": 4,
+      "comment": "Very knowledgeable and thorough in his diagnosis. However, the waiting time for the appointment can be a bit long due to his popularity. Despite that, his treatment plan worked wonders for my father’s heart health.",
+      "date": {
+        "$date": "2025-08-02T10:15:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Deepa Sharma",
+      "customer_email": "deepa.sharma@gmail.com",
+      "rating": 5,
+      "comment": "Saved my father’s life during a severe heart attack by acting swiftly. He motivated us to follow a healthy lifestyle after recovery. Forever grateful for his expertise and timely intervention.",
+      "date": {
+        "$date": "2025-08-04T14:45:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Kiran Das",
+      "customer_email": "kiran.das@gmail.com",
+      "rating": 4,
+      "comment": "Very attentive to patient needs and explains medical concepts clearly. I felt confident throughout my treatment process. The only downside is the hospital’s limited parking for visitors.",
+      "date": {
+        "$date": "2025-08-05T15:20:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8202"
+  },
+  "doc_Id": "DOC1710",
+  "hos_Id": "Hos@111",
+  "name": "Dr. Kavita Desai",
+  "license_number": "LICNO@654323",
+  "qualification": "BDS, MDS",
+  "specialization": "Dentist",
+  "years_of_practice": 8,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-05-22T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Aman Gupta",
+      "customer_email": "aman.gupta@gmail.com",
+      "rating": 5,
+      "comment": "Painless root canal treatment performed with high precision. She ensures the patient is relaxed before beginning any procedure. The clinic environment is also very hygienic and welcoming.",
+      "date": {
+        "$date": "2025-08-02T11:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Meghan Nair",
+      "customer_email": "meghan.nair@gmail.com",
+      "rating": 4,
+      "comment": "Friendly and gentle while working, even with children. She took the time to explain the right brushing techniques. Only drawback was the lack of nearby parking on a busy day.",
+      "date": {
+        "$date": "2025-08-03T09:15:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Rahul Choudhary",
+      "customer_email": "rahul.choudhary@gmail.com",
+      "rating": 5,
+      "comment": "Best dentist I’ve visited so far. She uses modern equipment which makes procedures quicker and less painful. I came in nervous but left relieved and happy.",
+      "date": {
+        "$date": "2025-08-06T12:30:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Preeti Sinha",
+      "customer_email": "preeti.sinha@gmail.com",
+      "rating": 5,
+      "comment": "Her clinic is very well maintained with advanced dental chairs and tools. She explained the treatment options clearly before starting. I would recommend her to all my friends and family.",
+      "date": {
+        "$date": "2025-08-07T17:00:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.75,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8203"
+  },
+  "doc_Id": "DOC1711",
+  "hos_Id": "Hos@112",
+  "name": "Dr. Neeraj Kapoor",
+  "license_number": "LICNO@654324",
+  "qualification": "MBBS, MS",
+  "specialization": "Orthopedic Surgeon",
+  "years_of_practice": 15,
+  "availability_status": "Not Available",
+  "joining_date": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Ritu Chauhan",
+      "customer_email": "ritu.chauhan@gmail.com",
+      "rating": 5,
+      "comment": "Helped me recover from a knee injury much faster than expected. He designed a tailored physiotherapy schedule that worked well for me. His encouragement during the sessions kept me motivated.",
+      "date": {
+        "$date": "2025-08-01T13:30:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Sumit Sharma",
+      "customer_email": "sumit.sharma@gmail.com",
+      "rating": 4,
+      "comment": "Very good doctor but getting an appointment is difficult due to his busy schedule. The consultation was detailed and thorough. He also gave clear post-treatment care instructions.",
+      "date": {
+        "$date": "2025-08-02T15:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Jyoti Raghav",
+      "customer_email": "jyoti.raghav@gmail.com",
+      "rating": 5,
+      "comment": "Extremely skilled in bone and joint surgeries. My mother’s hip replacement was a complete success. She is now walking without pain after years of suffering.",
+      "date": {
+        "$date": "2025-08-05T09:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Arjun Mishra",
+      "customer_email": "arjun.mishra@gmail.com",
+      "rating": 5,
+      "comment": "Probably the best orthopedic surgeon I have met. He listens patiently to all concerns. His focus on rehabilitation post-surgery ensures long-term recovery.",
+      "date": {
+        "$date": "2025-08-06T10:45:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.75,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8204"
+  },
+  "doc_Id": "DOC1712",
+  "hos_Id": "Hos@113",
+  "name": "Dr. Meera Joshi",
+  "license_number": "LICNO@654325",
+  "qualification": "MBBS, DM",
+  "specialization": "Neurologist",
+  "years_of_practice": 10,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Harsh Vardhan",
+      "customer_email": "harsh.v@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Joshi carefully explained my mother’s neurological condition in detail. She made sure we understood every possible treatment option before deciding. Her calm approach gave us immense confidence throughout the process.",
+      "date": {
+        "$date": "2025-08-01T09:45:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Smita Nair",
+      "customer_email": "smita.nair@gmail.com",
+      "rating": 4,
+      "comment": "The waiting time was long, but it was worth it because of the thorough consultation. She listened attentively to all my symptoms and recommended a balanced treatment plan. I could see improvement within two weeks of following her advice.",
+      "date": {
+        "$date": "2025-08-04T11:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Lalit Kumar",
+      "customer_email": "lalit.k@gmail.com",
+      "rating": 5,
+      "comment": "She diagnosed my migraine issues accurately after months of uncertainty. Her medication plan worked without heavy side effects, which was a relief. I’m grateful for her professionalism and dedication.",
+      "date": {
+        "$date": "2025-08-06T14:20:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Reena Verma",
+      "customer_email": "reena.verma@gmail.com",
+      "rating": 4,
+      "comment": "Dr. Joshi’s expertise is remarkable and she treats everyone respectfully. She takes the time to answer all questions in a way that’s easy to understand. The only challenge is getting an appointment due to her high demand.",
+      "date": {
+        "$date": "2025-08-07T13:30:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8205"
+  },
+  "doc_Id": "DOC1713",
+  "hos_Id": "Hos@114",
+  "name": "Dr. Sameer Kulkarni",
+  "license_number": "LICNO@654326",
+  "qualification": "MBBS, MS",
+  "specialization": "General Surgeon",
+  "years_of_practice": 14,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Anil Patil",
+      "customer_email": "anil.patil@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Kulkarni performed my gallbladder surgery and the recovery was very smooth. He explained what to expect before and after the surgery in detail. His friendly nature kept me calm and confident throughout my hospital stay.",
+      "date": {
+        "$date": "2025-08-03T09:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Rashmi Sharma",
+      "customer_email": "rashmi.sharma@gmail.com",
+      "rating": 4,
+      "comment": "During my appendectomy follow-up, he ensured I understood all aftercare steps. He also guided me about diet to help faster healing. The only minus point was a slightly high consultation fee.",
+      "date": {
+        "$date": "2025-08-05T15:15:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Vikas Singh",
+      "customer_email": "vikas.singh@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Kulkarni is a talented and approachable surgeon. He answered all my questions without rushing, which made me feel heard. I would trust him again without hesitation for any surgical need.",
+      "date": {
+        "$date": "2025-08-06T16:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Neha Bhatia",
+      "customer_email": "neha.bhatia@gmail.com",
+      "rating": 4,
+      "comment": "Very professional and takes time to address patient concerns. He was thorough in explaining wound care post-surgery. The hospital parking could be improved though.",
+      "date": {
+        "$date": "2025-08-07T10:40:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8206"
+  },
+  "doc_Id": "DOC1714",
+  "hos_Id": "Hos@115",
+  "name": "Dr. Anjali Verma",
+  "license_number": "LICNO@654327",
+  "qualification": "MBBS, MD",
+  "specialization": "Dermatologist",
+  "years_of_practice": 11,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-03-22T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Simran Kapoor",
+      "customer_email": "simran.kapoor@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Verma treated my stubborn acne problem after many years of failed attempts. She patiently explained how the treatment would work over time. Within three months, I saw a significant improvement in my skin.",
+      "date": {
+        "$date": "2025-08-01T14:10:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Aakash Mehta",
+      "customer_email": "aakash.mehta@gmail.com",
+      "rating": 4,
+      "comment": "Very knowledgeable and up to date with the latest skin treatments. She recommended a skincare routine that was simple yet effective. Parking at the clinic is an issue during peak hours.",
+      "date": {
+        "$date": "2025-08-02T16:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Pooja Nair",
+      "customer_email": "pooja.nair@gmail.com",
+      "rating": 5,
+      "comment": "I had a great experience undergoing chemical peel treatment here. She was gentle, explained every step, and constantly checked if I was comfortable. Results were visible in just two sessions.",
+      "date": {
+        "$date": "2025-08-05T10:30:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Krishna Rao",
+      "customer_email": "krishna.rao@gmail.com",
+      "rating": 5,
+      "comment": "She is very approachable and humble despite her vast experience. I had skin allergy issues which she diagnosed correctly in the first visit. Her medicines started showing results in less than a week.",
+      "date": {
+        "$date": "2025-08-06T12:45:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.75,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8207"
+  },
+  "doc_Id": "DOC1715",
+  "hos_Id": "Hos@116",
+  "name": "Dr. Vikram Sethi",
+  "license_number": "LICNO@654328",
+  "qualification": "MBBS, MS",
+  "specialization": "Ophthalmologist",
+  "years_of_practice": 9,
+  "availability_status": "Not Available",
+  "joining_date": {
+    "$date": "2025-01-14T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Tanvi Sharma",
+      "customer_email": "tanvi.sharma@gmail.com",
+      "rating": 5,
+      "comment": "Excellent in handling eye surgeries with precision. He explained my cataract surgery process in detail, easing my anxiety. The operation was painless and recovery was quick.",
+      "date": {
+        "$date": "2025-08-01T09:20:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Rohan Sen",
+      "customer_email": "rohan.sen@gmail.com",
+      "rating": 4,
+      "comment": "Good doctor with a knack for thorough eye checkups. Suggested lifestyle changes that improved my vision fatigue. Clinic is small but well equipped.",
+      "date": {
+        "$date": "2025-08-03T11:10:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Ashima Gupta",
+      "customer_email": "ashima.gupta@gmail.com",
+      "rating": 5,
+      "comment": "Very attentive and patient while answering all my queries. Guided me on proper care post LASIK surgery. I am extremely satisfied with the results.",
+      "date": {
+        "$date": "2025-08-04T14:00:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Deepak Malhotra",
+      "customer_email": "deepak.malhotra@gmail.com",
+      "rating": 4,
+      "comment": "Great doctor but slightly long wait times. However, his diagnosis is spot on, so it feels worth the wait. Would recommend him to friends and family.",
+      "date": {
+        "$date": "2025-08-06T16:35:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8208"
+  },
+  "doc_Id": "DOC1716",
+  "hos_Id": "Hos@117",
+  "name": "Dr. Priya Anand",
+  "license_number": "LICNO@654329",
+  "qualification": "MBBS, DGO",
+  "specialization": "Gynecologist",
+  "years_of_practice": 13,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2024-12-09T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Shreya Pillai",
+      "customer_email": "shreya.pillai@gmail.com",
+      "rating": 5,
+      "comment": "She made my pregnancy journey smooth and stress-free. Always available to answer any doubts with patience. Highly recommended for first-time mothers.",
+      "date": {
+        "$date": "2025-08-02T10:25:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Minal Chauhan",
+      "customer_email": "minal.chauhan@gmail.com",
+      "rating": 4,
+      "comment": "Extremely caring and professional during my C-section delivery. She explained pre and post-surgery care very well. The hospital facilities could be improved a little.",
+      "date": {
+        "$date": "2025-08-04T17:50:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Ananya Sharma",
+      "customer_email": "ananya.sharma@gmail.com",
+      "rating": 5,
+      "comment": "One of the best gynecologists I have met. Empathetic and attentive during every consultation. She ensures you leave with clarity and peace of mind.",
+      "date": {
+        "$date": "2025-08-05T12:05:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Meera Iyer",
+      "customer_email": "meera.iyer@gmail.com",
+      "rating": 5,
+      "comment": "She is very experienced and kind towards patients. I always felt at ease discussing sensitive health issues. Her advice has helped me maintain a healthy lifestyle.",
+      "date": {
+        "$date": "2025-08-06T09:40:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.75,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a8209"
+  },
+  "doc_Id": "DOC1717",
+  "hos_Id": "Hos@118",
+  "name": "Dr. Arvind Rao",
+  "license_number": "LICNO@654330",
+  "qualification": "MBBS, DM",
+  "specialization": "Endocrinologist",
+  "years_of_practice": 16,
+  "availability_status": "Not Available",
+  "joining_date": {
+    "$date": "2024-11-25T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Prakash Nair",
+      "customer_email": "prakash.nair@gmail.com",
+      "rating": 5,
+      "comment": "Dr. Rao helped me bring my uncontrolled diabetes under control. His diet and medication plan was easy to follow and effective. He regularly follows up to ensure progress.",
+      "date": {
+        "$date": "2025-08-01T15:30:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Vidya Mohan",
+      "customer_email": "vidya.mohan@gmail.com",
+      "rating": 4,
+      "comment": "He spent ample time understanding my thyroid problem. His explanation of the tests and treatment plan was very clear. Only drawback is that his waiting list is long.",
+      "date": {
+        "$date": "2025-08-03T13:20:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Gaurav Sinha",
+      "customer_email": "gaurav.sinha@gmail.com",
+      "rating": 5,
+      "comment": "A very knowledgeable doctor who keeps patient comfort as top priority. He adjusts medicines based on regular blood test updates. My health has improved considerably since visiting him.",
+      "date": {
+        "$date": "2025-08-05T11:45:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Sandhya K",
+      "customer_email": "sandhya.k@gmail.com",
+      "rating": 4,
+      "comment": "Listens carefully and answers every doubt with patience. He focuses on long-term lifestyle changes rather than just medicines. His advice has been life-changing for me.",
+      "date": {
+        "$date": "2025-08-06T14:10:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.5,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "68997fa0925697b8949a820a"
+  },
+  "doc_Id": "DOC1718",
+  "hos_Id": "Hos@119",
+  "name": "Dr. Snehal Patwardhan",
+  "license_number": "LICNO@654331",
+  "qualification": "MBBS, MS",
+  "specialization": "ENT Specialist",
+  "years_of_practice": 7,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2024-10-18T00:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "review_id": 1,
+      "customer_name": "Neelam Chawla",
+      "customer_email": "neelam.chawla@gmail.com",
+      "rating": 5,
+      "comment": "She treated my chronic sinus problem effectively. The nasal endoscopy procedure was explained in detail beforehand. Within a month, my symptoms disappeared completely.",
+      "date": {
+        "$date": "2025-08-02T12:15:00.000Z"
+      }
+    },
+    {
+      "review_id": 2,
+      "customer_name": "Aditya Deshmukh",
+      "customer_email": "aditya.deshmukh@gmail.com",
+      "rating": 4,
+      "comment": "Dr. Snehal has a friendly and approachable personality. She suggested home remedies along with medicines for my ear infection. Clinic gets crowded quickly, so appointments are best booked in advance.",
+      "date": {
+        "$date": "2025-08-04T10:35:00.000Z"
+      }
+    },
+    {
+      "review_id": 3,
+      "customer_name": "Farah Khan",
+      "customer_email": "farah.khan@gmail.com",
+      "rating": 5,
+      "comment": "She handled my tonsil surgery with utmost care. Gave me a very clear diet and recovery plan post-surgery. Within a week I was back to work comfortably.",
+      "date": {
+        "$date": "2025-08-05T15:25:00.000Z"
+      }
+    },
+    {
+      "review_id": 4,
+      "customer_name": "Ravi Pradhan",
+      "customer_email": "ravi.pradhan@gmail.com",
+      "rating": 5,
+      "comment": "Very patient and detailed in answering questions. She identified my hearing loss issue and guided me towards the right treatment. I have full trust in her medical advice now.",
+      "date": {
+        "$date": "2025-08-06T09:50:00.000Z"
+      }
+    }
+  ],
+  "rating": 4.75,
+  "_class": "training.iqgateway.model.DoctorEO"
+},
+{
+  "_id": {
+    "$oid": "689e0bb8ad75911bcec27d56"
+  },
+  "doc_Id": "DOC1719",
+  "hos_Id": "Hos@124",
+  "name": "Dr. Ram",
+  "license_number": "Lic@123456",
+  "qualification": "MBBS",
+  "specialization": "Radiologist",
+  "years_of_practice": 3,
+  "availability_status": "Available",
+  "joining_date": {
+    "$date": "2025-08-14T00:00:00.000Z"
+  },
+  "reviews": [],
+  "rating": 0,
+  "_class": "training.iqgateway.model.DoctorEO"
+}]

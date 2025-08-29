@@ -1,0 +1,120 @@
+#
+#spring:
+#  cloud:
+#    gateway:
+#      globalcors:
+#        add-to-simple-url-handler-mapping: true
+#        corsConfigurations:
+#          '[/**]':
+#            allowedOrigins:
+#              - "http://localhost:5173"
+#            allowedMethods:
+#              - GET
+#              - POST
+#              - PUT
+#              - PATCH
+#              - DELETE
+#              - OPTIONS
+#            allowedHeaders:
+#              - "*"
+#            allowCredentials: true
+#            maxAge: 3600
+#      routes:
+#        - id: websocket_route
+#          uri: http://localhost:9092   # <-- PUT YOUR CUSTOMER SERVICE HOST/PORT HERE
+#          predicates:
+#            - Path=/ws/**
+#          filters:
+#            - PreserveHostHeader
+
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: API-Gateway
+
+  cloud:
+    gateway:
+      server:
+        webflux:
+          globalcors:
+            add-to-simple-url-handler-mapping: true
+            cors-configurations:
+              '[/**]':
+                allowedOrigins:
+                  - "http://localhost:5173"
+                allowedMethods:
+                  - GET
+                  - POST
+                  - PUT
+                  - PATCH
+                  - DELETE
+                  - OPTIONS
+                allowedHeaders:
+                  - "*"
+                allowCredentials: true
+                maxAge: 3600
+
+          routes:
+            - id: Providers
+              uri: http://localhost:9091
+              predicates:
+                - Path=/providers/**
+            
+            - id: Customers
+              uri: http://localhost:9092
+              predicates:
+                - Path=/customers/**
+            
+            - id: Customers_DoctorsView
+              uri: http://localhost:9092
+              predicates:
+                - Path=/customer-view/doctors/**
+            
+            - id: Customers_View
+              uri: http://localhost:9092
+              predicates:
+                - Path=/customer-view/**
+            
+            - id: Doctors
+              uri: http://localhost:9093
+              predicates:
+                - Path=/doctors/**
+            
+            - id: Admin_Doctors
+              uri: http://localhost:9094
+              predicates:
+                - Path=/admin/doctors/**
+            
+            - id: Admin_Providers
+              uri: http://localhost:9094
+              predicates:
+                - Path=/admin/providers/**
+            
+            - id: Insurance_Plans
+              uri: http://localhost:9095
+              predicates:
+                - Path=/insurance-plans/**
+            
+            - id: Insurance_Customers
+              uri: http://localhost:9095
+              predicates:
+                - Path=/insurer/customers/**
+            
+            - id: LoginService
+              uri: http://localhost:9097
+              predicates:
+                - Path=/login/**
+            
+            - id: websocket_route
+              uri: http://localhost:9092  # Your WebSocket/Customer Service
+              predicates:
+                - Path=/ws/**
+              filters:
+                - PreserveHostHeader
+
+logging:
+  level:
+    training.iqgateway: DEBUG
