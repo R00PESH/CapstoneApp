@@ -36,6 +36,11 @@ public class CustomerController {
     public CustomerDTO getCustomer(@PathVariable String id) {
         return CustomerMapper.toDto(customerSer.getCustomerByAdharNum(id));
     }
+    
+    @GetMapping("/email/{email}")
+    public CustomerDTO getCustomerByEmail(@PathVariable String email) {
+		return CustomerMapper.toDto(customerSer.getCustomerByEmail(email));
+	}
 
     @GetMapping
     public List<CustomerDTO> getAllCustomers() {

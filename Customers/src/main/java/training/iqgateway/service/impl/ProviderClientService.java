@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import training.iqgateway.dto.DoctorDTO;
-import training.iqgateway.dto.ProviderDTO;
+import training.admin.iqgateway.dto.DoctorDTO;
+import training.admin.iqgateway.dto.ProviderDTO;
 
 @Service
 public class ProviderClientService {

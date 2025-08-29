@@ -3,6 +3,7 @@ package training.iqgateway.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.time.Instant;
 
@@ -10,7 +11,9 @@ import java.time.Instant;
 public class InsuranceTeamEO {
     @Id
     private String _id;
-    private String insurer_Id;    // Business unique key
+    @Field("insurer_Id")
+    private String insurerId; 
+    // Business unique key
     private String name;
     private String email;
     private String password;
@@ -21,9 +24,9 @@ public class InsuranceTeamEO {
 
     public InsuranceTeamEO() {}
 
-    public InsuranceTeamEO(String _id, String insurer_Id, String name, String email, String password, Instant hire_date, String active_status) {
+    public InsuranceTeamEO(String _id, String insurerId, String name, String email, String password, Instant hire_date, String active_status) {
         this._id = _id;
-        this.insurer_Id = insurer_Id;
+        this.insurerId = insurerId;
         this.name = name;
         this.email = email;
         this.password = password;
@@ -33,8 +36,8 @@ public class InsuranceTeamEO {
 
     public String get_id() { return _id; }
     public void set_id(String _id) { this._id = _id; }
-    public String getInsurer_Id() { return insurer_Id; }
-    public void setInsurer_Id(String insurer_Id) { this.insurer_Id = insurer_Id; }
+    public String getInsurerId() { return insurerId; }
+    public void setInsurerId(String insurer_Id) { this.insurerId = insurer_Id; }
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     public String getEmail() { return email; }

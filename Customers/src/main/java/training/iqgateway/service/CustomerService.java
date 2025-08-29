@@ -10,6 +10,8 @@ public interface CustomerService {
 	
 	CustomerEO getCustomerByAdharNum(String adharNum);
 	
+	CustomerEO getCustomerByEmail(String email);
+	
 	CustomerEO updateCustomer(String adharNum,CustomerEO customer);
 	
 	List<CustomerEO> getAllCustomers();

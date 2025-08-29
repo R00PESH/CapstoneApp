@@ -10,6 +10,7 @@ public class ProviderDTO {
 	 private String id;
 	 private String hosId;
 	    private List<String> docId;
+	    private String password;
 	    private String speciality;
 	    private double rating;
 	    private String location;
@@ -21,13 +22,15 @@ public class ProviderDTO {
 	    private String activeStatus;
 	    private GeoJsonPoint geoLocation;
 	    private List<ReviewDTO> reviews;
-		public ProviderDTO(String id,String hosId,List<String> docId, String name, String speciality, double experience, String gender, double rating,
+	    private String email;
+		public ProviderDTO(String id,String hosId,List<String> docId,String password, String name, String speciality, double experience, String gender, double rating,
 				String location, long zipcode, double lat, double lon, String hospitalName, List<String> insurancePlans,
-				String activeStatus, List<ReviewDTO> reviews,GeoJsonPoint geoLocation) {
+				String activeStatus, List<ReviewDTO> reviews,GeoJsonPoint geoLocation,String email) {
 			super();
 			this.id = id;
 			this.hosId = hosId;
 			this.docId=docId;
+			this.password = password;
 			this.speciality = speciality;
 			this.rating = rating;
 			this.location = location;
@@ -39,11 +42,26 @@ public class ProviderDTO {
 			this.activeStatus = activeStatus;
 			this.reviews = reviews;
 			this.geoLocation = geoLocation;
+			this.email=email;
 		}
+		
+		
 		public ProviderDTO() {
 			super();
 			// TODO Auto-generated constructor stub
 		}
+		
+		
+		public String getPassword() {
+			return password;
+		}
+
+
+		public void setPassword(String password) {
+			this.password = password;
+		}
+
+
 		public String getId() {
 			return id;
 		}
@@ -130,7 +148,16 @@ public class ProviderDTO {
 		public void setGeoLocation(GeoJsonPoint geoLocation) {
 			this.geoLocation = geoLocation;
 		}
+		
 	    
+		public String getEmail() {
+			return email;
+		}
+		public void setEmail(String email) {
+			this.email = email;
+		}
+
+
 		public static class ReviewDTO {
 	        private String customerName;
 	        private String customerEmail;

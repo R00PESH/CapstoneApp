@@ -1,5 +1,6 @@
 package training.iqgateway.mapper;
 
+import java.time.Instant;
 import java.util.stream.Collectors;
 
 import training.iqgateway.dto.ProviderDTO;
@@ -13,6 +14,7 @@ public class ProviderMapper {
     dto.setId(provider.getId());
     dto.setHosId(provider.getHosId());
     dto.setDocId(provider.getDocId());
+    dto.setPassword(provider.getPassword());
     dto.setSpeciality(provider.getSpeciality());
     dto.setRating(provider.getRating());
     dto.setLocation(provider.getLocation());
@@ -27,6 +29,7 @@ public class ProviderMapper {
             .map(ProviderMapper::toReviewDTO)
             .collect(Collectors.toList()));
     }
+    dto.setEmail(provider.getEmail());
     return dto;
 	}
 	
@@ -36,6 +39,7 @@ public class ProviderMapper {
         provider.setId(dto.getId());
         provider.setHosId(dto.getHosId());
         provider.setDocId(dto.getDocId());
+        provider.setPassword(dto.getPassword());
         provider.setSpeciality(dto.getSpeciality());
         provider.setRating(dto.getRating());
         provider.setLocation(dto.getLocation());
@@ -50,6 +54,7 @@ public class ProviderMapper {
                 .map(ProviderMapper::toReviewEntity)
                 .collect(Collectors.toList()));
         }
+        provider.setEmail(dto.getEmail());
         return provider;
     }
 	
@@ -71,7 +76,15 @@ public class ProviderMapper {
         review.setCustomer_email(dto.getCustomerEmail());
         review.setRating(dto.getRating());
         review.setReview(dto.getReview());
-        review.setReview_given_time(dto.getReviewGivenTime());
+//        review.setReview_given_time(dto.getReviewGivenTime());
+       // review.setReview(dto.getReview());
+        // Parse the ISO-8601 string to Instant
+        if (dto.getReviewGivenTime() != null) {
+            review.setReview_given_time(Instant.parse(dto.getReviewGivenTime().toString()));
+        } else {
+            review.setReview_given_time(Instant.now());
+        }
+
         return review;
     }
 

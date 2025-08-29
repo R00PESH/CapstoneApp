@@ -11,5 +11,7 @@ public interface CustomerRepository extends MongoRepository<CustomerEO, String> 
 	CustomerEO findByAdharNumber(String adharNumber);
 	
 	void deleteByAdharNumber(String adharNumber);
+	
+	CustomerEO findByEmail(String email);
 
 }

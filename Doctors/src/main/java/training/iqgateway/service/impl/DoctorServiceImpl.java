@@ -51,12 +51,24 @@ public class DoctorServiceImpl implements DoctorService {
 
 	@Override
 	public DoctorEO updateDoctor(String id, DoctorEO doctor) {
-		DoctorEO existing = getDoctorById(id);
-        if (existing == null) return null;
-        doctor.setId(id);
-        updateAvgRating(doctor); // recalc rating
-        return doctorRepo.save(doctor);
+	    DoctorEO existing = getDoctorById(id);
+	    if (existing == null) return null;
+
+	    // Only overwrite if provided, else retain previous value
+	    if (doctor.getName() != null) existing.setName(doctor.getName());
+	    if (doctor.getHosId() != null) existing.setHosId(doctor.getHosId());
+	    if (doctor.getLicenseNumber() != null) existing.setLicenseNumber(doctor.getLicenseNumber());
+	    if (doctor.getQualification() != null) existing.setQualification(doctor.getQualification());
+	    if (doctor.getSpecialization() != null) existing.setSpecialization(doctor.getSpecialization());
+	    if (doctor.getYearsOfExp() != 0) existing.setYearsOfExp(doctor.getYearsOfExp());
+	    if (doctor.getAvailabilityStatus() != null) existing.setAvailabilityStatus(doctor.getAvailabilityStatus());
+	    if (doctor.getJoiningDate() != null) existing.setJoiningDate(doctor.getJoiningDate());
+	    if (doctor.getReviews() != null) existing.setReviews(doctor.getReviews());
+
+	    updateAvgRating(existing); // recalc rating
+	    return doctorRepo.save(existing);
 	}
+
 
 	@Override
 	public void deleteDoctor(String id) {

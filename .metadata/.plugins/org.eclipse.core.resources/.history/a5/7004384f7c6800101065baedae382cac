@@ -1,5 +1,0 @@
-package training.iqgateway.config;
-
-public class RestTemplateConfig {
-
-}

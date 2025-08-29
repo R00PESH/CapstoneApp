@@ -44,7 +44,12 @@ public class DoctorMapper {
 		entity.setLicenseNumber(doctorDTO.getLicenseNumber());
 		entity.setQualification(doctorDTO.getQualification());
 		entity.setSpecialization(doctorDTO.getSpecialization());
-		entity.setRating(doctorDTO.getRating());
+		 // Safely handle potentially null rating
+	    if (doctorDTO.getRating() != null) {
+	        entity.setRating(doctorDTO.getRating());
+	    } else {
+	        entity.setRating(0.0);  // or another appropriate default
+	    }
 		entity.setYearsOfExp(doctorDTO.getyearsOfExp());
 		entity.setAvailabilityStatus(doctorDTO.getAvailabilityStatus());
 		entity.setJoiningDate(doctorDTO.getJoiningDate());

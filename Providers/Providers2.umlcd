@@ -1,0 +1,3147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jI6M0HahEfCFlusnXIjHlg">
+  <modelElement href="Providers2.uml#_j87qwXahEfCFlusnXIjHlg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxHgwHahEfCFlusnXIjHlg" sourceAnchor="14.0,0.0" targetAnchor="829.0,217.0" target="_kyJbgHahEfCFlusnXIjHlg" source="_kxIu6XahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kL-MUHahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kxHgwXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMCdwHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kxHgwnahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEnrkHahEfCFlusnXIjHlg" position="41.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxHgw3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kL-MUXahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEnEh3ahEfCFlusnXIjHlg" position="-56.0,-41.0"/>
+      <visibility xmi:id="_kxHgxHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxHgxXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxHgxnahEfCFlusnXIjHlg" aggregationKind="NONE" name="provideSer" navigable="true">
+      <modelElement href="Providers2.uml#_kLRBsHahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEnrkXahEfCFlusnXIjHlg" position="-36.0,6.0"/>
+      <visibility xmi:id="_kxHgx3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxHgyHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxIu4HahEfCFlusnXIjHlg" sourceAnchor="956.0,257.0" targetAnchor="18.0,0.0" target="_kyc9gHahEfCFlusnXIjHlg" source="_kxIu6XahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMCdwXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kxIu4XahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMHWQHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kxIu4nahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEoSoHahEfCFlusnXIjHlg" position="2.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxIu43ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMCdwnahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEnrknahEfCFlusnXIjHlg" position="2.0,43.0"/>
+      <visibility xmi:id="_kxIu5HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIu5XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxIu5nahEfCFlusnXIjHlg" aggregationKind="NONE" name="doctorServiceUrl" navigable="true">
+      <modelElement href="Providers2.uml#_kLSP0HahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEoSoXahEfCFlusnXIjHlg" position="2.0,-93.0"/>
+      <visibility xmi:id="_kxIu53ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxIu6HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxRRwHahEfCFlusnXIjHlg" target="_kxR44HahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLx_EnahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kxR40HahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kxR40XahEfCFlusnXIjHlg" aggregationKind="NONE" name="geoLocation" navigable="true">
+      <modelElement href="Providers2.uml#_kLXIUHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxR40nahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxR403ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxR41HahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLx_E3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxR41XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxR41nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxR413ahEfCFlusnXIjHlg" sourceAnchor="557.0,0.0" targetAnchor="380.0,204.0" target="_kxYmiHahEfCFlusnXIjHlg" source="_kxR44HahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMLnsXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kxR42HahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMRHQHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kxR42XahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEo5sHahEfCFlusnXIjHlg" position="1.0,20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxR42nahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMLnsnahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEoSonahEfCFlusnXIjHlg" position="-18.0,-70.0"/>
+      <visibility xmi:id="_kxR423ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxR43HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxR43XahEfCFlusnXIjHlg" aggregationKind="NONE" name="reviews" navigable="true">
+      <modelElement href="Providers2.uml#_kLXIUXahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEo5sXahEfCFlusnXIjHlg" position="1.0,20.0"/>
+      <visibility xmi:id="_kxR43nahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxR433ahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxYmgHahEfCFlusnXIjHlg" target="_kxYmiHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLx_FHahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kxYmgXahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kxYmgnahEfCFlusnXIjHlg" aggregationKind="NONE" name="reviewGivenTime" navigable="true">
+      <modelElement href="Providers2.uml#_kLXIWHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmg3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmhHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxYmhXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLymIHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmhnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmh3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxbp0HahEfCFlusnXIjHlg" target="_kxetKXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLww-nahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kxc38HahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kxdfAHahEfCFlusnXIjHlg" aggregationKind="NONE" name="joiningDate" navigable="true">
+      <modelElement href="Providers2.uml#_kLUsEnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxdfA3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxdfAnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxdfAXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLww-3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxeGEXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxeGEHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxetIHahEfCFlusnXIjHlg" sourceAnchor="425.0,0.0" targetAnchor="394.0,224.0" target="_kxkzxHahEfCFlusnXIjHlg" source="_kxetKXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMH9UHahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kxetIXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMLnsHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kxetInahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEpgwHahEfCFlusnXIjHlg" position="1.0,-39.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxetI3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMH9UXahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEo5snahEfCFlusnXIjHlg" position="1.0,-69.0"/>
+      <visibility xmi:id="_kxetJHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetJXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxetJnahEfCFlusnXIjHlg" aggregationKind="NONE" name="reviews" navigable="true">
+      <modelElement href="Providers2.uml#_kLUsE3ahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEpgwXahEfCFlusnXIjHlg" position="-57.0,20.0"/>
+      <visibility xmi:id="_kxetJ3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetKHahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxjloHahEfCFlusnXIjHlg" target="_kxkzxHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLx_EHahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kxkMsHahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kxkMsXahEfCFlusnXIjHlg" aggregationKind="NONE" name="date" navigable="true">
+      <modelElement href="Providers2.uml#_kLVTJnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkzwXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkzwHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxkMsnahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLx_EXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkzw3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkzwnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxq6YHahEfCFlusnXIjHlg" sourceAnchor="0.0,221.0" targetAnchor="0.0,107.0" target="_kyJbgHahEfCFlusnXIjHlg" source="_kxxBCXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLz0QnahEfCFlusnXIjHlg"/>
+    <bendpoints xmi:id="_SIUc0XalEfCFlusnXIjHlg" sourceX="-50" targetX="-192" targetY="1296"/>
+    <bendpoints xmi:id="_SIUc0nalEfCFlusnXIjHlg" sourceX="-51" sourceY="-1296" targetX="-193"/>
+    <nameVisual xmi:id="_kxt9sHahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEqH0XahEfCFlusnXIjHlg" position="-13.000000000000455,-67.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxt9sXahEfCFlusnXIjHlg" aggregationKind="NONE" name="allProviders" navigable="true">
+      <modelElement href="Providers2.uml#_kAJW1HahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEqH0HahEfCFlusnXIjHlg" position="-48.0,-276.0"/>
+      <visibility xmi:id="_kxukwXahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kxukwHahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxt9snahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLz0Q3ahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEqH0nahEfCFlusnXIjHlg" position="-32.0,-51.0"/>
+      <visibility xmi:id="_kxvL0HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxukwnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxq6YXahEfCFlusnXIjHlg" target="_kxxBCXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLymJXahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kxt9s3ahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kxt9tHahEfCFlusnXIjHlg" aggregationKind="NONE" name="geoLocation" navigable="true">
+      <modelElement href="Providers2.uml#_kLcn6HahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxvL0nahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxvL0XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxt9tXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLymJnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxvy4XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxvy4HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kxxBAHahEfCFlusnXIjHlg" sourceAnchor="1147.0,0.0" targetAnchor="364.0,205.0" target="_kx6yAHahEfCFlusnXIjHlg" source="_kxxBCXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMRHQXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kxxBAXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMWm0HahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kxxBAnahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEqu4XahEfCFlusnXIjHlg" position="1.5,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kxxBA3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMRHQnahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEqu4HahEfCFlusnXIjHlg" position="40.5,-39.5"/>
+      <visibility xmi:id="_kxxBBHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBBXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kxxBBnahEfCFlusnXIjHlg" aggregationKind="NONE" name="reviews" navigable="true">
+      <modelElement href="Providers2.uml#_kLdO8XahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEqu4nahEfCFlusnXIjHlg" position="-56.5,-9.5"/>
+      <visibility xmi:id="_kxxBB3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBCHahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kx4VwHahEfCFlusnXIjHlg" target="_kx6yAHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kLz0QHahEfCFlusnXIjHlg"/>
+    <nameVisual xmi:id="_kx480HahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kx5j4HahEfCFlusnXIjHlg" aggregationKind="NONE" name="review_given_time" navigable="true">
+      <modelElement href="Providers2.uml#_kLd2A3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6K8XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6K8HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kx5j4XahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kLz0QXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6K83ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6K8nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kyNs8HahEfCFlusnXIjHlg" sourceAnchor="460.0,0.0" targetAnchor="237.0,276.0" target="_kyCGwHahEfCFlusnXIjHlg" source="_kyTzmXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMiNAXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kyPiI3ahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMl3YHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyPiIHahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEr9AXahEfCFlusnXIjHlg" position="1.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kyPiIXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMiNAnahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEr9AHahEfCFlusnXIjHlg" position="-18.0,-58.0"/>
+      <visibility xmi:id="_kyQwQXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyQwQHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyPiInahEfCFlusnXIjHlg" aggregationKind="NONE" name="provideRepo" navigable="true">
+      <modelElement href="Providers2.uml#_kLgSQHahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEr9AnahEfCFlusnXIjHlg" position="-125.0,1.0"/>
+      <visibility xmi:id="_kyQwQ3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyQwQnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_kyO7EHahEfCFlusnXIjHlg" sourceAnchor="0.0,287.0" targetAnchor="1113.0,3.0" dashed="true" superClass="_kyJbgHahEfCFlusnXIjHlg" subClass="_kyTzmXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kKYQ4nahEfCFlusnXIjHlg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kySlcHahEfCFlusnXIjHlg" source="_kyTzmXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMd7kXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kyTMgHahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMiNAHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyTMgXahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kyTMgnahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMd7knahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyTMg3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTMhHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyTMhXahEfCFlusnXIjHlg" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="Providers2.uml#_kLfrMnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyTMhnahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyTMh3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kyTzkHahEfCFlusnXIjHlg" source="_kyTzmXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMl3YXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kyTzkXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMo6sHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyTzknahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kyTzk3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMl3YnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyTzlHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzlXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyTzlnahEfCFlusnXIjHlg" aggregationKind="NONE" name="mongoTem" navigable="true">
+      <modelElement href="Providers2.uml#_kLgSQ3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyTzl3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyTzmHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kybIUHahEfCFlusnXIjHlg" source="_kyc9gHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMWm0XahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kycWcXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMd7kHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kybvYHahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kybvYXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMWm0nahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kycWc3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kycWcnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kycWcHahEfCFlusnXIjHlg" aggregationKind="NONE" name="restTemplate" navigable="true">
+      <modelElement href="Providers2.uml#_kLfEI3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kycWdXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kycWdHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kygA0HahEfCFlusnXIjHlg" source="_kygA2XahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMo6sXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kygA0XahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMr-AHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kygA0nahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kygA03ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMo6snahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kygA1HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kygA1XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kygA1nahEfCFlusnXIjHlg" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="Providers2.uml#_kLhgYHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kygA13ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kygA2HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kyh2AHahEfCFlusnXIjHlg" sourceAnchor="186.0,0.0" targetAnchor="1113.0,107.0" target="_kyJbgHahEfCFlusnXIjHlg" source="_kylgaXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMvoYXahEfCFlusnXIjHlg"/>
+    <bendpoints xmi:id="_SIUc0HalEfCFlusnXIjHlg" sourceX="-24" sourceY="-470" targetX="910"/>
+    <stereotypes xmi:id="_kyjEJHahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kM0g4HahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyjEIXahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEskEHahEfCFlusnXIjHlg" position="-430.0,1.9999999999999432"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kyjEInahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMvoYnahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEr9A3ahEfCFlusnXIjHlg" position="2.0,-92.0"/>
+      <visibility xmi:id="_kyjrNXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyjrNHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyjEI3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="provideSer" navigable="true">
+      <modelElement href="Providers2.uml#_kLiug3ahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEskEXahEfCFlusnXIjHlg" position="62.0,2.0000000000002274"/>
+      <visibility xmi:id="_kykSQXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kykSQHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kyidEHahEfCFlusnXIjHlg" sourceAnchor="164.0,263.0" targetAnchor="272.0,0.0" target="_kyc9gHahEfCFlusnXIjHlg" source="_kylgaXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kM0g4XahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kyjEKHahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kM4yUHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyjEJXahEfCFlusnXIjHlg" text="">
+      <visualProperties xmi:id="_lEtLIXahEfCFlusnXIjHlg" position="-38.0,-38.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kyjEJnahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kM0g4nahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEtLIHahEfCFlusnXIjHlg" position="2.0,19.0"/>
+      <visibility xmi:id="_kykSRHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kykSQ3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyjEJ3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="doctorServiceUrl" navigable="true">
+      <modelElement href="Providers2.uml#_kLjVknahEfCFlusnXIjHlg"/>
+      <visualProperties xmi:id="_lEtLInahEfCFlusnXIjHlg" position="-104.0,-69.0"/>
+      <visibility xmi:id="_kykSRnahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kykSRXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kyjEIHahEfCFlusnXIjHlg" source="_kylgaXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kMr-AXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kyjrM3ahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kMvoYHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kyjrMHahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kyjrMXahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kMslEHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kykSSXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kykSSHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kyjrMnahEfCFlusnXIjHlg" aggregationKind="NONE" name="mockMvc" navigable="true">
+      <modelElement href="Providers2.uml#_kLiugHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kykSS3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kykSSnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kylgYHahEfCFlusnXIjHlg" source="_kylgaXahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kM4yUXahEfCFlusnXIjHlg"/>
+    <stereotypes xmi:id="_kylgYXahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kM8csHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kylgYnahEfCFlusnXIjHlg" text=""/>
+    <sourceRole xmi:id="_kylgY3ahEfCFlusnXIjHlg" aggregationKind="NONE" name="">
+      <modelElement href="Providers2.uml#_kM4yUnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kylgZHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kylgZXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kylgZnahEfCFlusnXIjHlg" aggregationKind="NONE" name="objectMapper" navigable="true">
+      <modelElement href="Providers2.uml#_kLj8onahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kylgZ3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kylgaHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxkzxHahEfCFlusnXIjHlg" name="ReviewDTO" associationsIn="_kxetIHahEfCFlusnXIjHlg _kxjloHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_X6wnahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxkzxXahEfCFlusnXIjHlg" position="-2710.0,-710.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_kxkzxnahEfCFlusnXIjHlg" keyword="static"/>
+    <visibility xmi:id="_kxkzx3ahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxkzyHahEfCFlusnXIjHlg" name="reviewId">
+      <modelElement href="Providers2.uml#_kLVTIXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkzyXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkzynahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkzy3ahEfCFlusnXIjHlg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxkzzHahEfCFlusnXIjHlg" name="customerName">
+      <modelElement href="Providers2.uml#_kLVTInahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkzzXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkzznahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkzz3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxkz0HahEfCFlusnXIjHlg" name="customerEmail">
+      <modelElement href="Providers2.uml#_kLVTI3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkz0XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz0nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkz03ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxkz1HahEfCFlusnXIjHlg" name="rating">
+      <modelElement href="Providers2.uml#_kLVTJHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkz1XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz1nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkz13ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxkz2HahEfCFlusnXIjHlg" name="comment">
+      <modelElement href="Providers2.uml#_kLVTJXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkz2XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz2nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkz23ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxkz3HahEfCFlusnXIjHlg" name="date">
+      <modelElement href="Providers2.uml#_kLVTJnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxkz3XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz3nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxkz33ahEfCFlusnXIjHlg" name="Instant">
+        <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxkz4HahEfCFlusnXIjHlg" name="ReviewDTO">
+      <modelElement href="Providers2.uml#_j_Yh0HahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxkz4XahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxkz4nahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz43ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxkz5HahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_Yh03ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxkz5XahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_j_X6wnahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxkz5nahEfCFlusnXIjHlg" name="ReviewDTO">
+      <modelElement href="Providers2.uml#_kK0VwHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxkz53ahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxkz6HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxkz6XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxkz6nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kK0813ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxkz63ahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_j_X6wnahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxkz7HahEfCFlusnXIjHlg" name="reviewId">
+        <modelElement href="Providers2.uml#_kK0VwXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz7XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz7nahEfCFlusnXIjHlg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxkz73ahEfCFlusnXIjHlg" name="customerName">
+        <modelElement href="Providers2.uml#_kK080HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz8HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz8XahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxkz8nahEfCFlusnXIjHlg" name="customerEmail">
+        <modelElement href="Providers2.uml#_kK080XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz83ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz9HahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxkz9XahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kK080nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz9nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz93ahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxkz-HahEfCFlusnXIjHlg" name="comment">
+        <modelElement href="Providers2.uml#_kK0803ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz-XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz-nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxkz-3ahEfCFlusnXIjHlg" name="date">
+        <modelElement href="Providers2.uml#_kK081HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxkz_HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxkz_XahEfCFlusnXIjHlg" name="Instant">
+          <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxetKXahEfCFlusnXIjHlg" name="DoctorDTO" associationsIn="_kxbp0HahEfCFlusnXIjHlg" associationsOut="_kxetIHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxetKnahEfCFlusnXIjHlg" position="-2741.0,-379.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kxetK3ahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxetLHahEfCFlusnXIjHlg" name="id">
+      <modelElement href="Providers2.uml#_kLTd8HahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetLXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetLnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetL3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetMHahEfCFlusnXIjHlg" name="docId">
+      <modelElement href="Providers2.uml#_kLTd8XahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetMXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetMnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetM3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetNHahEfCFlusnXIjHlg" name="hosId">
+      <modelElement href="Providers2.uml#_kLTd8nahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetNXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetNnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetN3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetOHahEfCFlusnXIjHlg" name="name">
+      <modelElement href="Providers2.uml#_kLTd83ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetOXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetOnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetO3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetPHahEfCFlusnXIjHlg" name="licenseNumber">
+      <modelElement href="Providers2.uml#_kLUFAHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetPXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetPnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetP3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetQHahEfCFlusnXIjHlg" name="qualification">
+      <modelElement href="Providers2.uml#_kLUFAXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetQXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetQnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetQ3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetRHahEfCFlusnXIjHlg" name="specialization">
+      <modelElement href="Providers2.uml#_kLUFAnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetRXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetRnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetR3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetSHahEfCFlusnXIjHlg" name="yearsOfExp">
+      <modelElement href="Providers2.uml#_kLUFA3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxetSXahEfCFlusnXIjHlg" name="LegacyStyledElement">
+        <modelElement href="Providers2.uml#_kLUsEHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxetSnahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxetS3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetTHahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetTXahEfCFlusnXIjHlg" name="availabilityStatus">
+      <modelElement href="Providers2.uml#_kLUsEXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetTnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetT3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetUHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetUXahEfCFlusnXIjHlg" name="joiningDate">
+      <modelElement href="Providers2.uml#_kLUsEnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetUnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetU3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetVHahEfCFlusnXIjHlg" name="Instant">
+        <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetVXahEfCFlusnXIjHlg" name="reviews">
+      <modelElement href="Providers2.uml#_kLUsE3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetVnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetV3ahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxetWHahEfCFlusnXIjHlg" name="ReviewDTO">
+        <modelElement href="Providers2.uml#_j_X6wnahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxetWXahEfCFlusnXIjHlg" name="rating">
+      <modelElement href="Providers2.uml#_kLVTIHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetWnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetW3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxetXHahEfCFlusnXIjHlg" name="Double">
+        <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxetXXahEfCFlusnXIjHlg" name="getyearsOfExp">
+      <modelElement href="Providers2.uml#_j_U3cHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetXnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetX3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxetYHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_VegHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxetYXahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxetYnahEfCFlusnXIjHlg" name="setyearsOfExp">
+      <modelElement href="Providers2.uml#_j_WFkHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxetY3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetZHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kxetZXahEfCFlusnXIjHlg" name="yearsOfExp">
+        <modelElement href="Providers2.uml#_j_WFkXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetZnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetZ3ahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxetaHahEfCFlusnXIjHlg" name="DoctorDTO">
+      <modelElement href="Providers2.uml#_j_XTsHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxetaXahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxetanahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxeta3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxetbHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_X6wXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxetbXahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxetbnahEfCFlusnXIjHlg" name="DoctorDTO">
+      <modelElement href="Providers2.uml#_kKygkHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxetb3ahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxetcHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxetcXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxetcnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKzHrXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxetc3ahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxetdHahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_kKygkXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetdXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetdnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetd3ahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kKzHoHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxeteHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxeteXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetenahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kKzHoXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxete3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetfHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetfXahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kKzHonahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetfnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetf3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetgHahEfCFlusnXIjHlg" name="licenseNumber">
+        <modelElement href="Providers2.uml#_kKzHo3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetgXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetgnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetg3ahEfCFlusnXIjHlg" name="qualification">
+        <modelElement href="Providers2.uml#_kKzHpHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxethHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxethXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxethnahEfCFlusnXIjHlg" name="specialization">
+        <modelElement href="Providers2.uml#_kKzHpXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxeth3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetiHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetiXahEfCFlusnXIjHlg" name="yearsOfExp">
+        <modelElement href="Providers2.uml#_kKzHpnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetinahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxeti3ahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetjHahEfCFlusnXIjHlg" name="availabilityStatus">
+        <modelElement href="Providers2.uml#_kKzHp3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetjXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetjnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetj3ahEfCFlusnXIjHlg" name="joiningDate">
+        <modelElement href="Providers2.uml#_kKzHqHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetkHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetkXahEfCFlusnXIjHlg" name="Instant">
+          <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetknahEfCFlusnXIjHlg" name="reviews">
+        <modelElement href="Providers2.uml#_kKzHqXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetk3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetlHahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxetlXahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kKzHqnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxetlnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxetl3ahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kw-94HahEfCFlusnXIjHlg" name="WebConfig">
+    <modelElement href="Providers2.uml#_j-0hIHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kw-94XahEfCFlusnXIjHlg" position="-1860.0,-492.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kw-94nahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_j-1vQHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kw-943ahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_j-2WUHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kw-95HahEfCFlusnXIjHlg" label="+"/>
+    <operations xmi:id="_kw-95XahEfCFlusnXIjHlg" name="configurePathMatch">
+      <modelElement href="Providers2.uml#_kKoIgXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kw-95nahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kKovkXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kw-953ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kw-96HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kw-96XahEfCFlusnXIjHlg" name="configurer">
+        <modelElement href="Providers2.uml#_kKovkHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kw-96nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kw-963ahEfCFlusnXIjHlg" name="PathMatchConfigurer">
+          <modelElement href="Providers2.uml#_kJxz8XahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kw7TgHahEfCFlusnXIjHlg" name="ProvidersApplication">
+    <modelElement href="Providers2.uml#_j-3kcHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kw7TgXahEfCFlusnXIjHlg" position="-1851.0,-651.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kw7TgnahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_j-4LgHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kw7Tg3ahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_j-6AsnahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kw7ThHahEfCFlusnXIjHlg" label="+"/>
+    <operations xmi:id="_kw7ThXahEfCFlusnXIjHlg" name="main" staticOperation="true">
+      <modelElement href="Providers2.uml#_j-4ykHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kw7ThnahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_j-5ZoHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kw7Th3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kw7TiHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kw7TiXahEfCFlusnXIjHlg" name="args">
+        <modelElement href="Providers2.uml#_j-4ykXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kw7TinahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kw7Ti3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kw7TjHahEfCFlusnXIjHlg" name="restTemplate">
+      <modelElement href="Providers2.uml#_j-5ZonahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kw7TjXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j-6AsHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kw7TjnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kw7Tj3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kw7TkHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKpWoXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kw7TkXahEfCFlusnXIjHlg" name="RestTemplate">
+          <modelElement href="Providers2.uml#_kJ03Q3ahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxpsQHahEfCFlusnXIjHlg" name="ProviderMapper">
+    <modelElement href="Providers2.uml#_j_pAgHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxpsQXahEfCFlusnXIjHlg" position="-1464.0,-682.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kxpsQnahEfCFlusnXIjHlg" label="+"/>
+    <operations xmi:id="_kxpsQ3ahEfCFlusnXIjHlg" name="toDTO" staticOperation="true">
+      <modelElement href="Providers2.uml#_kKIZQHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxpsRHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxpsRXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxpsRnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKJAUHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxpsR3ahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxpsSHahEfCFlusnXIjHlg" name="provider">
+        <modelElement href="Providers2.uml#_kKIZQXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxpsSXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxpsSnahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxpsS3ahEfCFlusnXIjHlg" name="toEntity" staticOperation="true">
+      <modelElement href="Providers2.uml#_kKJAUXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxpsTHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxpsTXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxpsTnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKJAU3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxpsT3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxpsUHahEfCFlusnXIjHlg" name="dto">
+        <modelElement href="Providers2.uml#_kKJAUnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxpsUXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxpsUnahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxpsU3ahEfCFlusnXIjHlg" name="toReviewDTO" staticOperation="true">
+      <modelElement href="Providers2.uml#_kKJnYXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxpsVHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxpsVXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxpsVnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKJnY3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxpsV3ahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_kJ-oQHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxpsWHahEfCFlusnXIjHlg" name="review">
+        <modelElement href="Providers2.uml#_kKJnYnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxpsWXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxpsWnahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_kKJAVHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxpsW3ahEfCFlusnXIjHlg" name="toReviewEntity" staticOperation="true">
+      <modelElement href="Providers2.uml#_kKJnZHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxpsXHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxpsXXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxpsXnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKJnZnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxpsX3ahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_kKJAVHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxpsYHahEfCFlusnXIjHlg" name="dto">
+        <modelElement href="Providers2.uml#_kKJnZXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxpsYXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxpsYnahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_kJ-oQHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kygA2XahEfCFlusnXIjHlg" name="ProvidersApplicationTests" associationsOut="_kygA0HahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kAXZQHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kygA2nahEfCFlusnXIjHlg" position="-1361.0,-522.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kygA23ahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_kAYnYHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kygA3HahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_kAZOcHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kygA3XahEfCFlusnXIjHlg" label="~"/>
+    <attributes xmi:id="_kygA3nahEfCFlusnXIjHlg" name="mockMvc">
+      <modelElement href="Providers2.uml#_kLhgYHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kygA33ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLiHcHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kygA4HahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kygA4XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kygA4nahEfCFlusnXIjHlg" name="MockMvc">
+        <modelElement href="Providers2.uml#_kKdwcnahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kygA43ahEfCFlusnXIjHlg" name="contextLoads">
+      <modelElement href="Providers2.uml#_kAYnYXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kygA5HahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAYnYnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kygA5XahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kygA5nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_kyJbgHahEfCFlusnXIjHlg" name="ProviderService" associationsIn="_kxq6YHahEfCFlusnXIjHlg _kxHgwHahEfCFlusnXIjHlg _kyh2AHahEfCFlusnXIjHlg" subclassedBy="_kyO7EHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kAIIsHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kyJbgXahEfCFlusnXIjHlg" position="-2719.0,15.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kyJbgnahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kyJbg3ahEfCFlusnXIjHlg" name="allProviders">
+      <modelElement href="Providers2.uml#_kAJW1HahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbhHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyJbhXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kyJbhnahEfCFlusnXIjHlg" name="ProviderEO">
+        <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kyJbh3ahEfCFlusnXIjHlg" name="getProviderById">
+      <modelElement href="Providers2.uml#_kAIvwHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbiHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJbiXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyJbinahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKSxU3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbi3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbjHahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kAIvwXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbjXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbjnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbj3ahEfCFlusnXIjHlg" name="getProviderByName">
+      <modelElement href="Providers2.uml#_kAJW0HahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbkHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyJbkXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyJbknahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAJW0nahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbk3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJblHahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kAJW0XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJblXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJblnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbl3ahEfCFlusnXIjHlg" name="getProviderByHospital">
+      <modelElement href="Providers2.uml#_kAJ94XahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbmHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyJbmXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyJbmnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAJ943ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbm3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbnHahEfCFlusnXIjHlg" name="Hospital_name">
+        <modelElement href="Providers2.uml#_kAJ94nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbnXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbnnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbn3ahEfCFlusnXIjHlg" name="deleteProvider">
+      <modelElement href="Providers2.uml#_kAKk8HahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJboHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJboXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kyJbonahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kAKk8XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbo3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbpHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbpXahEfCFlusnXIjHlg" name="createProvider">
+      <modelElement href="Providers2.uml#_kKSxUHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbpnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJbp3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyJbqHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKSxUnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbqXahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbqnahEfCFlusnXIjHlg" name="provider">
+        <modelElement href="Providers2.uml#_kKSxUXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbq3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbrHahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbrXahEfCFlusnXIjHlg" name="updateProvider">
+      <modelElement href="Providers2.uml#_kKSxVHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbrnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJbr3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyJbsHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKTYYXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbsXahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbsnahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kKSxVXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbs3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbtHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJbtXahEfCFlusnXIjHlg" name="provider">
+        <modelElement href="Providers2.uml#_kKTYYHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbtnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbt3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbuHahEfCFlusnXIjHlg" name="addReview">
+      <modelElement href="Providers2.uml#_kKTYYnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbuXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJbunahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyJbu3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKTYZXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbvHahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbvXahEfCFlusnXIjHlg" name="providerId">
+        <modelElement href="Providers2.uml#_kKTYY3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbvnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbv3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJbwHahEfCFlusnXIjHlg" name="review">
+        <modelElement href="Providers2.uml#_kKTYZHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbwXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbwnahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_kKJAVHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyJbw3ahEfCFlusnXIjHlg" name="filterProviders">
+      <modelElement href="Providers2.uml#_kLHQsHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyJbxHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyJbxXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyJbxnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLH3xnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyJbx3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyJbyHahEfCFlusnXIjHlg" name="lat">
+        <modelElement href="Providers2.uml#_kLHQsXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbyXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbynahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJby3ahEfCFlusnXIjHlg" name="lon">
+        <modelElement href="Providers2.uml#_kLHQsnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbzHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJbzXahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJbznahEfCFlusnXIjHlg" name="distanceKm">
+        <modelElement href="Providers2.uml#_kLHQs3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJbz3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb0HahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb0XahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kLH3wHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb0nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb03ahEfCFlusnXIjHlg" name="Long">
+          <modelElement href="Providers2.uml#_kKqkwHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb1HahEfCFlusnXIjHlg" name="minRating">
+        <modelElement href="Providers2.uml#_kLH3wXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb1XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb1nahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb13ahEfCFlusnXIjHlg" name="insurancePlans">
+        <modelElement href="Providers2.uml#_kLH3wnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb2HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb2XahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb2nahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kLH3w3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb23ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb3HahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb3XahEfCFlusnXIjHlg" name="location">
+        <modelElement href="Providers2.uml#_kLH3xHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb3nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb33ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyJb4HahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kLH3xXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyJb4XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyJb4nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kyrnAHahEfCFlusnXIjHlg" name="Exception">
+    <modelElement href="Providers2.uml#_kLNXUHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kyrnAXahEfCFlusnXIjHlg" position="-1319.0,-380.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kyrnAnahEfCFlusnXIjHlg" name="Reference">
+      <modelElement href="Providers2.uml#_kLNXUXahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kyrnA3ahEfCFlusnXIjHlg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_kyCGwHahEfCFlusnXIjHlg" name="ProviderRepository" associationsIn="_kyNs8HahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kAAM4HahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kyCGwXahEfCFlusnXIjHlg" position="-1115.0,-618.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kyCGwnahEfCFlusnXIjHlg" label="+"/>
+    <operations xmi:id="_kyCGw3ahEfCFlusnXIjHlg" name="findBySpeciality">
+      <modelElement href="Providers2.uml#_kABbAHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCGxHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCGxXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCGxnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kABbAnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCGx3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCGyHahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kABbAXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCGyXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCGynahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCGy3ahEfCFlusnXIjHlg" name="findByHosId">
+      <modelElement href="Providers2.uml#_kACpIHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCGzHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCGzXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyCGznahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKSKQHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCGz3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG0HahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kACpIXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG0XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG0nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG03ahEfCFlusnXIjHlg" name="findByActiveStatus">
+      <modelElement href="Providers2.uml#_kADQMHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG1HahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyCG1XahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCG1nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kADQMnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCG13ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG2HahEfCFlusnXIjHlg" name="activeStatus">
+        <modelElement href="Providers2.uml#_kADQMXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG2XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG2nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG23ahEfCFlusnXIjHlg" name="findByRatingGreaterThan">
+      <modelElement href="Providers2.uml#_kAD3QHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG3HahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyCG3XahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCG3nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAEeUHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCG33ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG4HahEfCFlusnXIjHlg" name="minrating">
+        <modelElement href="Providers2.uml#_kAD3QXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG4XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG4nahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG43ahEfCFlusnXIjHlg" name="findByHospitalName">
+      <modelElement href="Providers2.uml#_kAEeUnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG5HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCG5XahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCG5nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAEeVHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCG53ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG6HahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kAEeU3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG6XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG6nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG63ahEfCFlusnXIjHlg" name="findByZipcode">
+      <modelElement href="Providers2.uml#_kAFFYHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG7HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCG7XahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCG7nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAFFYnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCG73ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG8HahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kAFFYXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG8XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG8nahEfCFlusnXIjHlg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG83ahEfCFlusnXIjHlg" name="findByDocId">
+      <modelElement href="Providers2.uml#_kAFFZHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG9HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCG9XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyCG9nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKSKQXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCG93ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCG-HahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kAFFZXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG-XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCG-nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCG-3ahEfCFlusnXIjHlg" name="deleteByHosId">
+      <modelElement href="Providers2.uml#_kAFscHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCG_HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCG_XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kyCG_nahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kAFscXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCG_3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHAHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCHAXahEfCFlusnXIjHlg" name="findByLocationAndZipcode">
+      <modelElement href="Providers2.uml#_kAFscnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCHAnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCHA3ahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCHBHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAFsdXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCHBXahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCHBnahEfCFlusnXIjHlg" name="location">
+        <modelElement href="Providers2.uml#_kAFsc3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCHB3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHCHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyCHCXahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kAFsdHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCHCnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHC3ahEfCFlusnXIjHlg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCHDHahEfCFlusnXIjHlg" name="findByGeoLocationNear">
+      <modelElement href="Providers2.uml#_kLFbgXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCHDXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyCHDnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCHD3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLGCkHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCHEHahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCHEXahEfCFlusnXIjHlg" name="point">
+        <modelElement href="Providers2.uml#_kLFbgnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCHEnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHE3ahEfCFlusnXIjHlg" name="Point">
+          <modelElement href="Providers2.uml#_kKRjMXahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyCHFHahEfCFlusnXIjHlg" name="distance">
+        <modelElement href="Providers2.uml#_kLFbg3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCHFXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHFnahEfCFlusnXIjHlg" name="Distance">
+          <modelElement href="Providers2.uml#_kKQVEHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyCHF3ahEfCFlusnXIjHlg" name="findByInsurancePlansIn">
+      <modelElement href="Providers2.uml#_kLGCknahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kyCHGHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kyCHGXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyCHGnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLGClHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyCHG3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyCHHHahEfCFlusnXIjHlg" name="insurancePlans">
+        <modelElement href="Providers2.uml#_kLGCk3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyCHHXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyCHHnahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kyTzmXahEfCFlusnXIjHlg" name="ProviderServiceImpl" associationsOut="_kyNs8HahEfCFlusnXIjHlg _kySlcHahEfCFlusnXIjHlg _kyTzkHahEfCFlusnXIjHlg" generalizations="_kyO7EHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kAO2YHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kyTzmnahEfCFlusnXIjHlg" position="-1338.0,-269.0" size="1064.0,303.0"/>
+    <stereotypes xmi:id="_kyTzm3ahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_kAO2YXahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kyTznHahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_kAU9AHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kyTznXahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kyTznnahEfCFlusnXIjHlg" defaultValue="LoggerFactory.getLogger(ProviderServiceImpl.class)" name="logger" staticAttribute="true">
+      <modelElement href="Providers2.uml#_kLfrMnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzn3ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLfrNHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzoHahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyTzoXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kyTzonahEfCFlusnXIjHlg" name="Logger">
+        <modelElement href="Providers2.uml#_kKXp0XahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kyTzo3ahEfCFlusnXIjHlg" name="provideRepo">
+      <modelElement href="Providers2.uml#_kLgSQHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzpHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLgSQXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzpXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyTzpnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kyTzp3ahEfCFlusnXIjHlg" name="ProviderRepository">
+        <modelElement href="Providers2.uml#_kAAM4HahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kyTzqHahEfCFlusnXIjHlg" name="mongoTem">
+      <modelElement href="Providers2.uml#_kLgSQ3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzqXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLg5UHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzqnahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyTzq3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kyTzrHahEfCFlusnXIjHlg" name="MongoTemplate">
+        <modelElement href="Providers2.uml#_kKWbs3ahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kyTzrXahEfCFlusnXIjHlg" name="getProviderById">
+      <modelElement href="Providers2.uml#_kAPdcHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzrnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAQEgHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzr3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzsHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyTzsXahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKZfAHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTzsnahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTzs3ahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kAPdcXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTztHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTztXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTztnahEfCFlusnXIjHlg" name="getProviderByName">
+      <modelElement href="Providers2.uml#_kAQEgnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzt3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAQrkHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzuHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzuXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyTzunahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAQEhHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTzu3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTzvHahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kAQEg3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTzvXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTzvnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTzv3ahEfCFlusnXIjHlg" name="getAllProviders">
+      <modelElement href="Providers2.uml#_kARSoXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzwHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAR5sXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzwXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzwnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyTzw3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kARSonahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTzxHahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kyTzxXahEfCFlusnXIjHlg" name="deleteProvider">
+      <modelElement href="Providers2.uml#_kASgwHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzxnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kASgwnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzx3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzyHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kyTzyXahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kASgwXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTzynahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTzy3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTzzHahEfCFlusnXIjHlg" name="getProviderByHospital">
+      <modelElement href="Providers2.uml#_kAUV8HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTzzXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAUV9HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTzznahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTzz3ahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyTz0HahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kAUV8nahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTz0XahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTz0nahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kAUV8XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz03ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz1HahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTz1XahEfCFlusnXIjHlg" name="createProvider">
+      <modelElement href="Providers2.uml#_kKY38HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTz1nahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kKY383ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTz13ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTz2HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyTz2XahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKY38nahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTz2nahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTz23ahEfCFlusnXIjHlg" name="provider">
+        <modelElement href="Providers2.uml#_kKY38XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz3HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz3XahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTz3nahEfCFlusnXIjHlg" name="updateProvider">
+      <modelElement href="Providers2.uml#_kKZfAXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTz33ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kKZfBXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTz4HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTz4XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyTz4nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKZfBHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTz43ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTz5HahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kKZfAnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz5XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz5nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyTz53ahEfCFlusnXIjHlg" name="changes">
+        <modelElement href="Providers2.uml#_kKZfA3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz6HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz6XahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTz6nahEfCFlusnXIjHlg" name="addReview">
+      <modelElement href="Providers2.uml#_kKaGEHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTz63ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kKatIHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTz7HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTz7XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyTz7nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKaGE3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTz73ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTz8HahEfCFlusnXIjHlg" name="providerId">
+        <modelElement href="Providers2.uml#_kKaGEXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz8XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz8nahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyTz83ahEfCFlusnXIjHlg" name="review">
+        <modelElement href="Providers2.uml#_kKaGEnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz9HahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz9XahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_j_yKcXahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyTz9nahEfCFlusnXIjHlg" name="filterProviders">
+      <modelElement href="Providers2.uml#_kLJs8HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyTz93ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLK7EXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyTz-HahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyTz-XahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyTz-nahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLKUCXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyTz-3ahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyTz_HahEfCFlusnXIjHlg" name="lat">
+        <modelElement href="Providers2.uml#_kLKUAHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyTz_XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyTz_nahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyTz_3ahEfCFlusnXIjHlg" name="lon">
+        <modelElement href="Providers2.uml#_kLKUAXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0AHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0AXahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0AnahEfCFlusnXIjHlg" name="distanceKm">
+        <modelElement href="Providers2.uml#_kLKUAnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0A3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0BHahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0BXahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kLKUA3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0BnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0B3ahEfCFlusnXIjHlg" name="Long">
+          <modelElement href="Providers2.uml#_kKqkwHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0CHahEfCFlusnXIjHlg" name="minRating">
+        <modelElement href="Providers2.uml#_kLKUBHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0CXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0CnahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0C3ahEfCFlusnXIjHlg" name="insurancePlans">
+        <modelElement href="Providers2.uml#_kLKUBXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0DHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0DXahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0DnahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kLKUBnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0D3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0EHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0EXahEfCFlusnXIjHlg" name="location">
+        <modelElement href="Providers2.uml#_kLKUB3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0EnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0E3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyT0FHahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kLKUCHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0FXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0FnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyT0F3ahEfCFlusnXIjHlg" name="calcReviewAverage">
+      <modelElement href="Providers2.uml#_kLLiIHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyT0GHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLLiI3ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyT0GXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyT0GnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyT0G3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLLiInahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyT0HHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyT0HXahEfCFlusnXIjHlg" name="reviews">
+        <modelElement href="Providers2.uml#_kLLiIXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyT0HnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyT0H3ahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxYmiHahEfCFlusnXIjHlg" name="ReviewDTO" associationsIn="_kxR413ahEfCFlusnXIjHlg _kxYmgHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_i54HahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxYmiXahEfCFlusnXIjHlg" position="-2720.0,252.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_kxYminahEfCFlusnXIjHlg" keyword="static"/>
+    <visibility xmi:id="_kxYmi3ahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxYmjHahEfCFlusnXIjHlg" name="customerName">
+      <modelElement href="Providers2.uml#_kLXIVHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmjXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmjnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxYmj3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxYmkHahEfCFlusnXIjHlg" name="customerEmail">
+      <modelElement href="Providers2.uml#_kLXIVXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmkXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmknahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxYmk3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxYmlHahEfCFlusnXIjHlg" name="rating">
+      <modelElement href="Providers2.uml#_kLXIVnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmlXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmlnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxYml3ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxYmmHahEfCFlusnXIjHlg" name="review">
+      <modelElement href="Providers2.uml#_kLXIV3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmmXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmmnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxYmm3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxYmnHahEfCFlusnXIjHlg" name="reviewGivenTime">
+      <modelElement href="Providers2.uml#_kLXIWHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxYmnXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmnnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxYmn3ahEfCFlusnXIjHlg" name="Instant">
+        <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxYmoHahEfCFlusnXIjHlg" name="ReviewDTO">
+      <modelElement href="Providers2.uml#_j_jg8HahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxYmoXahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxYmonahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmo3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxYmpHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_jg83ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxYmpXahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_j_i54HahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxYmpnahEfCFlusnXIjHlg" name="ReviewDTO">
+      <modelElement href="Providers2.uml#_kK7DcHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxYmp3ahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxYmqHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxYmqXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxYmqnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kK7qgHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxYmq3ahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_j_i54HahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxYmrHahEfCFlusnXIjHlg" name="customerName">
+        <modelElement href="Providers2.uml#_kK7DcXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxYmrXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxYmrnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxYmr3ahEfCFlusnXIjHlg" name="customerEmail">
+        <modelElement href="Providers2.uml#_kK7DcnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxYmsHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxYmsXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxYmsnahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kK7Dc3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxYms3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxYmtHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxYmtXahEfCFlusnXIjHlg" name="review">
+        <modelElement href="Providers2.uml#_kK7DdHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxYmtnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxYmt3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxYmuHahEfCFlusnXIjHlg" name="reviewGivenTime">
+        <modelElement href="Providers2.uml#_kK7DdXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxYmuXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxYmunahEfCFlusnXIjHlg" name="Instant">
+          <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxR44HahEfCFlusnXIjHlg" name="ProviderDTO" associationsIn="_kxRRwHahEfCFlusnXIjHlg" associationsOut="_kxR413ahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxR44XahEfCFlusnXIjHlg" position="-2897.0,564.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kxR44nahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxSf4HahEfCFlusnXIjHlg" name="id">
+      <modelElement href="Providers2.uml#_kLV6MHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf4XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf4nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf43ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf5HahEfCFlusnXIjHlg" name="hosId">
+      <modelElement href="Providers2.uml#_kLV6MXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf5XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf5nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf53ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf6HahEfCFlusnXIjHlg" name="docId">
+      <modelElement href="Providers2.uml#_kLV6MnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf6XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf6nahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxSf63ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf7HahEfCFlusnXIjHlg" name="password">
+      <modelElement href="Providers2.uml#_kLWhQHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf7XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf7nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf73ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf8HahEfCFlusnXIjHlg" name="speciality">
+      <modelElement href="Providers2.uml#_kLWhQXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf8XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf8nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf83ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf9HahEfCFlusnXIjHlg" name="rating">
+      <modelElement href="Providers2.uml#_kLWhQnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf9XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf9nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf93ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf-HahEfCFlusnXIjHlg" name="location">
+      <modelElement href="Providers2.uml#_kLWhQ3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf-XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf-nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf-3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSf_HahEfCFlusnXIjHlg" name="zipcode">
+      <modelElement href="Providers2.uml#_kLWhRHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSf_XahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSf_nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSf_3ahEfCFlusnXIjHlg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgAHahEfCFlusnXIjHlg" name="lat">
+      <modelElement href="Providers2.uml#_kLWhRXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgAXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgAnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgA3ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgBHahEfCFlusnXIjHlg" name="lon">
+      <modelElement href="Providers2.uml#_kLWhRnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgBXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgBnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgB3ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgCHahEfCFlusnXIjHlg" name="hospitalName">
+      <modelElement href="Providers2.uml#_kLWhR3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgCXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgCnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgC3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgDHahEfCFlusnXIjHlg" name="insurancePlans">
+      <modelElement href="Providers2.uml#_kLWhSHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgDXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgDnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxSgD3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgEHahEfCFlusnXIjHlg" name="activeStatus">
+      <modelElement href="Providers2.uml#_kLWhSnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgEXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgEnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgE3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgFHahEfCFlusnXIjHlg" name="geoLocation">
+      <modelElement href="Providers2.uml#_kLXIUHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgFXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgFnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgF3ahEfCFlusnXIjHlg" name="GeoJsonPoint">
+        <modelElement href="Providers2.uml#_kKEu4HahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgGHahEfCFlusnXIjHlg" name="reviews">
+      <modelElement href="Providers2.uml#_kLXIUXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgGXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgGnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxSgG3ahEfCFlusnXIjHlg" name="ReviewDTO">
+        <modelElement href="Providers2.uml#_j_i54HahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxSgHHahEfCFlusnXIjHlg" name="email">
+      <modelElement href="Providers2.uml#_kLXIU3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kxSgHXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgHnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxSgH3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxSgIHahEfCFlusnXIjHlg" name="ProviderDTO">
+      <modelElement href="Providers2.uml#_j_iS0HahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxSgIXahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxSgInahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgI3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxSgJHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_iS03ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxSgJXahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxSgJnahEfCFlusnXIjHlg" name="ProviderDTO">
+      <modelElement href="Providers2.uml#_kK4AIHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxSgJ3ahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kxSgKHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxSgKXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxSgKnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kK4nNnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxSgK3ahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxSgLHahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_kK4AIXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgLXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgLnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgL3ahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kK4AInahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgMHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgMXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgMnahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kK4AI3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgM3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgNHahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgNXahEfCFlusnXIjHlg" name="password">
+        <modelElement href="Providers2.uml#_kK4AJHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgNnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgN3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgOHahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kK4AJXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgOXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgOnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgO3ahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kK4AJnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgPHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgPXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgPnahEfCFlusnXIjHlg" name="experience">
+        <modelElement href="Providers2.uml#_kK4AJ3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgP3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgQHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgQXahEfCFlusnXIjHlg" name="gender">
+        <modelElement href="Providers2.uml#_kK4AKHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgQnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgQ3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgRHahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kK4AKXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgRXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgRnahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgR3ahEfCFlusnXIjHlg" name="location">
+        <modelElement href="Providers2.uml#_kK4AKnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgSHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgSXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgSnahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kK4AK3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgS3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgTHahEfCFlusnXIjHlg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgTXahEfCFlusnXIjHlg" name="lat">
+        <modelElement href="Providers2.uml#_kK4ALHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgTnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgT3ahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgUHahEfCFlusnXIjHlg" name="lon">
+        <modelElement href="Providers2.uml#_kK4ALXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgUXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgUnahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgU3ahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kK4ALnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgVHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgVXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgVnahEfCFlusnXIjHlg" name="insurancePlans">
+        <modelElement href="Providers2.uml#_kK4AL3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgV3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgWHahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgWXahEfCFlusnXIjHlg" name="activeStatus">
+        <modelElement href="Providers2.uml#_kK4nMHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgWnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgW3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgXHahEfCFlusnXIjHlg" name="reviews">
+        <modelElement href="Providers2.uml#_kK4nMXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgXXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgXnahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgX3ahEfCFlusnXIjHlg" name="geoLocation">
+        <modelElement href="Providers2.uml#_kK4nMnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgYHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgYXahEfCFlusnXIjHlg" name="GeoJsonPoint">
+          <modelElement href="Providers2.uml#_kKEu4HahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxSgYnahEfCFlusnXIjHlg" name="email">
+        <modelElement href="Providers2.uml#_kK4nM3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxSgY3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxSgZHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxIu6XahEfCFlusnXIjHlg" name="ProviderController" associationsOut="_kxHgwHahEfCFlusnXIjHlg _kxIu4HahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j-6nwXahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxIu6nahEfCFlusnXIjHlg" position="-1904.0,273.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kxIu63ahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_j--5MHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kxIu7HahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_j_LGcHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kxIu7XahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxIu7nahEfCFlusnXIjHlg" name="provideSer">
+      <modelElement href="Providers2.uml#_kLRBsHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIu73ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLRowHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIu8HahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxIu8XahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxIu8nahEfCFlusnXIjHlg" name="ProviderService">
+        <modelElement href="Providers2.uml#_kAIIsHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxIu83ahEfCFlusnXIjHlg" name="doctorServiceUrl">
+      <modelElement href="Providers2.uml#_kLSP0HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIu9HahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLSP0XahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIu9XahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxIu9nahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxIu93ahEfCFlusnXIjHlg" name="DoctorServiceUrl">
+        <modelElement href="Providers2.uml#_kALzEHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxIu-HahEfCFlusnXIjHlg" name="getProvider">
+      <modelElement href="Providers2.uml#_j_AuYHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIu-XahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j_B8gHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIu-nahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIu-3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxIu_HahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kJ8zFnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIu_XahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIu_nahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_j_AuYXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIu_3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvAHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvAXahEfCFlusnXIjHlg" name="getAllProviders">
+      <modelElement href="Providers2.uml#_j_CjknahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvAnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j_DxsHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvA3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvBHahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kxIvBXahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_DKoHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvBnahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxIvB3ahEfCFlusnXIjHlg" name="deleteProvider">
+      <modelElement href="Providers2.uml#_j_E_0HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvCHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j_GN8HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvCXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvCnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kxIvC3ahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_j_E_0XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvDHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvDXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvDnahEfCFlusnXIjHlg" name="getProviderDoctors">
+      <modelElement href="Providers2.uml#_j_IDIHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvD3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j_JRQnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvEHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvEXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kxIvEnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_IDInahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvE3ahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvFHahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_j_IDIXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvFXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvFnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvF3ahEfCFlusnXIjHlg" name="ProviderController">
+      <modelElement href="Providers2.uml#_kJ8MAHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxIvGHahEfCFlusnXIjHlg" keyword="create"/>
+      <stereotypes xmi:id="_kxIvGXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kJ8MBXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvGnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvG3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxIvHHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kJ8MBHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvHXahEfCFlusnXIjHlg" name="ProviderController">
+          <modelElement href="Providers2.uml#_j-6nwXahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvHnahEfCFlusnXIjHlg" name="doctorServiceUrl">
+        <modelElement href="Providers2.uml#_kJ8MAXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvH3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvIHahEfCFlusnXIjHlg" name="DoctorServiceUrl">
+          <modelElement href="Providers2.uml#_kALzEHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvIXahEfCFlusnXIjHlg" name="createProvider">
+      <modelElement href="Providers2.uml#_kJ8MB3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvInahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kJ8zFHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvI3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvJHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxIvJXahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kJ8zEXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvJnahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvJ3ahEfCFlusnXIjHlg" name="providerDTO">
+        <modelElement href="Providers2.uml#_kJ8zEHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvKHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvKXahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvKnahEfCFlusnXIjHlg" name="updateProvider">
+      <modelElement href="Providers2.uml#_kJ9aIHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvK3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kJ9aKHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvLHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvLXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxIvLnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kJ9aI3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvL3ahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvMHahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_kJ9aIXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvMXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvMnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvM3ahEfCFlusnXIjHlg" name="providerDTO">
+        <modelElement href="Providers2.uml#_kJ9aInahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvNHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvNXahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvNnahEfCFlusnXIjHlg" name="addReview">
+      <modelElement href="Providers2.uml#_kJ-oQnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvN3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kJ_PVHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvOHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvOXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxIvOnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kJ-oRXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvO3ahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvPHahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_kJ-oQ3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvPXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvPnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvP3ahEfCFlusnXIjHlg" name="reviewDTO">
+        <modelElement href="Providers2.uml#_kJ-oRHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvQHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvQXahEfCFlusnXIjHlg" name="ReviewDTO">
+          <modelElement href="Providers2.uml#_kJ-oQHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvQnahEfCFlusnXIjHlg" name="filterProviders">
+      <modelElement href="Providers2.uml#_kKqkwnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvQ3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kKuPIHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvRHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvRXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kxIvRnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKrL2HahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvR3ahEfCFlusnXIjHlg" name="ProviderDTO">
+          <modelElement href="Providers2.uml#_j_daUHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvSHahEfCFlusnXIjHlg" name="lat">
+        <modelElement href="Providers2.uml#_kKqkw3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvSXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvSnahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvS3ahEfCFlusnXIjHlg" name="lon">
+        <modelElement href="Providers2.uml#_kKrL0HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvTHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvTXahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvTnahEfCFlusnXIjHlg" name="distanceKm">
+        <modelElement href="Providers2.uml#_kKrL0XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvT3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvUHahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvUXahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kKrL0nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvUnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvU3ahEfCFlusnXIjHlg" name="Long">
+          <modelElement href="Providers2.uml#_kKqkwHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvVHahEfCFlusnXIjHlg" name="minRating">
+        <modelElement href="Providers2.uml#_kKrL03ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvVXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvVnahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvV3ahEfCFlusnXIjHlg" name="insurancePlans">
+        <modelElement href="Providers2.uml#_kKrL1HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvWHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvWXahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvWnahEfCFlusnXIjHlg" name="Hospital_name">
+        <modelElement href="Providers2.uml#_kKrL1XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvW3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvXHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvXXahEfCFlusnXIjHlg" name="Location">
+        <modelElement href="Providers2.uml#_kKrL1nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvXnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvX3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvYHahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kKrL13ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvYXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvYnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxIvY3ahEfCFlusnXIjHlg" name="filterDoctors">
+      <modelElement href="Providers2.uml#_kKu2MHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxIvZHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kKxScHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxIvZXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxIvZnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kxIvZ3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKu2OnahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxIvaHahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxIvaXahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kKu2MXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvanahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIva3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvbHahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kKu2MnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvbXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvbnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvb3ahEfCFlusnXIjHlg" name="specialization">
+        <modelElement href="Providers2.uml#_kKu2M3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvcHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvcXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvcnahEfCFlusnXIjHlg" name="availabilityStatus">
+        <modelElement href="Providers2.uml#_kKu2NHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvc3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvdHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvdXahEfCFlusnXIjHlg" name="licenseNumber">
+        <modelElement href="Providers2.uml#_kKu2NXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvdnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvd3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIveHahEfCFlusnXIjHlg" name="qualification">
+        <modelElement href="Providers2.uml#_kKu2NnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIveXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvenahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIve3ahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kKu2N3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvfHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvfXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvfnahEfCFlusnXIjHlg" name="yearsOfExperience">
+        <modelElement href="Providers2.uml#_kKu2OHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvf3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvgHahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxIvgXahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kKu2OXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxIvgnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxIvg3ahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kylgaXahEfCFlusnXIjHlg" name="ProviderControllerTest" associationsOut="_kyh2AHahEfCFlusnXIjHlg _kyidEHahEfCFlusnXIjHlg _kyjEIHahEfCFlusnXIjHlg _kylgYHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kAZOdnahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kylganahEfCFlusnXIjHlg" position="-858.0,593.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kylga3ahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_kAZ1g3ahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kylgbHahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_kAeG8HahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kylgbXahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kylgbnahEfCFlusnXIjHlg" name="mockMvc">
+      <modelElement href="Providers2.uml#_kLiugHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgb3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLiugXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgcHahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kylgcXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kylgcnahEfCFlusnXIjHlg" name="MockMvc">
+        <modelElement href="Providers2.uml#_kKdwcnahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kylgc3ahEfCFlusnXIjHlg" name="provideSer">
+      <modelElement href="Providers2.uml#_kLiug3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgdHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLjVkHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgdXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kylgdnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kylgd3ahEfCFlusnXIjHlg" name="ProviderService">
+        <modelElement href="Providers2.uml#_kAIIsHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kylgeHahEfCFlusnXIjHlg" name="doctorServiceUrl">
+      <modelElement href="Providers2.uml#_kLjVknahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgeXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLj8oHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgenahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kylge3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kylgfHahEfCFlusnXIjHlg" name="DoctorServiceUrl">
+        <modelElement href="Providers2.uml#_kALzEHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kylgfXahEfCFlusnXIjHlg" name="objectMapper">
+      <modelElement href="Providers2.uml#_kLj8onahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgfnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLj8o3ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgf3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kylggHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kylggXahEfCFlusnXIjHlg" name="ObjectMapper">
+        <modelElement href="Providers2.uml#_kKeXgXahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kylggnahEfCFlusnXIjHlg" name="getProvider_shouldReturnProvider">
+      <modelElement href="Providers2.uml#_kAZ1hHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgg3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAackHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylghHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylghXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylghnahEfCFlusnXIjHlg" name="getAllProviders_shouldReturnList">
+      <modelElement href="Providers2.uml#_kAbDoHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgh3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAbDoXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgiHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgiXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylginahEfCFlusnXIjHlg" name="createProvider_shouldCreateProvider">
+      <modelElement href="Providers2.uml#_kAbDo3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgi3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAbDpHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgjHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgjXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylgjnahEfCFlusnXIjHlg" name="updateProvider_shouldUpdateProvider">
+      <modelElement href="Providers2.uml#_kAbqsXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgj3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAbqsnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgkHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgkXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylgknahEfCFlusnXIjHlg" name="deleteProvider_shouldDeleteProvider">
+      <modelElement href="Providers2.uml#_kAbqtHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgk3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAcRwHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylglHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylglXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylglnahEfCFlusnXIjHlg" name="filterProviders_shouldReturnFilteredProviders">
+      <modelElement href="Providers2.uml#_kAcRwnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgl3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAcRw3ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgmHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgmXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylgmnahEfCFlusnXIjHlg" name="addReview_shouldAddReview">
+      <modelElement href="Providers2.uml#_kAcRxXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgm3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAc40HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgnHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgnXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kylgnnahEfCFlusnXIjHlg" name="getProviderDoctors_shouldReturnDoctors">
+      <modelElement href="Providers2.uml#_kAc40nahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kylgn3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kAdf4HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kylgoHahEfCFlusnXIjHlg" label="~"/>
+      <cardinality xmi:id="_kylgoXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kxxBCXahEfCFlusnXIjHlg" name="ProviderEO" associationsIn="_kxq6YXahEfCFlusnXIjHlg" associationsOut="_kxq6YHahEfCFlusnXIjHlg _kxxBAHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kxxBCnahEfCFlusnXIjHlg" position="-2862.0,1197.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kxxBC3ahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_j_sD0HahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kxxBDHahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_j_3C8HahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kxxBDXahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kxxBDnahEfCFlusnXIjHlg" name="id">
+      <modelElement href="Providers2.uml#_kLXvYHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBD3ahEfCFlusnXIjHlg" name="PrimaryKey">
+        <modelElement href="Providers2.uml#_kLY9gHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kxxBEHahEfCFlusnXIjHlg" name="JPA1StyledElement">
+        <modelElement href="Providers2.uml#_kLZkkHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBEXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBEnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBE3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBFHahEfCFlusnXIjHlg" name="hosId">
+      <modelElement href="Providers2.uml#_kLZkkXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBFXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLZkknahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBFnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBF3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBGHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBGXahEfCFlusnXIjHlg" name="docId">
+      <modelElement href="Providers2.uml#_kLaLoHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBGnahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaLonahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBG3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBHHahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxxBHXahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBHnahEfCFlusnXIjHlg" name="password">
+      <modelElement href="Providers2.uml#_kLaLo3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBH3ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaLpHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBIHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBIXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBInahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBI3ahEfCFlusnXIjHlg" name="speciality">
+      <modelElement href="Providers2.uml#_kLaLpXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBJHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaLpnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBJXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBJnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBJ3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBKHahEfCFlusnXIjHlg" name="rating">
+      <modelElement href="Providers2.uml#_kLaLp3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBKXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaLqHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBKnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBK3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBLHahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBLXahEfCFlusnXIjHlg" name="location">
+      <modelElement href="Providers2.uml#_kLaLqXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBLnahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaLqnahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBL3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBMHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBMXahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBMnahEfCFlusnXIjHlg" name="zipcode">
+      <modelElement href="Providers2.uml#_kLaysHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBM3ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaysXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBNHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBNXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBNnahEfCFlusnXIjHlg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBN3ahEfCFlusnXIjHlg" name="lat">
+      <modelElement href="Providers2.uml#_kLaysnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBOHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLays3ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBOXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBOnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBO3ahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBPHahEfCFlusnXIjHlg" name="lon">
+      <modelElement href="Providers2.uml#_kLaytHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBPXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLaytXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBPnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBP3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBQHahEfCFlusnXIjHlg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBQXahEfCFlusnXIjHlg" name="hospitalName">
+      <modelElement href="Providers2.uml#_kLaytnahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBQnahEfCFlusnXIjHlg" name="LegacyStyledElement">
+        <modelElement href="Providers2.uml#_kLayt3ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kxxBQ3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLbZxHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBRHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBRXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBRnahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBR3ahEfCFlusnXIjHlg" name="insurancePlans">
+      <modelElement href="Providers2.uml#_kLcA0nahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBSHahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLcA1HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBSXahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kxxBSnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxxBS3ahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBTHahEfCFlusnXIjHlg" name="activeStatus">
+      <modelElement href="Providers2.uml#_kLcA13ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBTXahEfCFlusnXIjHlg" name="LegacyStyledElement">
+        <modelElement href="Providers2.uml#_kLcn4HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kxxBTnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLcn5XahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBT3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBUHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBUXahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBUnahEfCFlusnXIjHlg" name="geoLocation">
+      <modelElement href="Providers2.uml#_kLcn6HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBU3ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLdO8HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBVHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBVXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBVnahEfCFlusnXIjHlg" name="GeoJsonPoint">
+        <modelElement href="Providers2.uml#_kKEu4HahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBV3ahEfCFlusnXIjHlg" name="reviews">
+      <modelElement href="Providers2.uml#_kLdO8XahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBWHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLdO83ahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBWXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBWnahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_kxxBW3ahEfCFlusnXIjHlg" name="Review">
+        <modelElement href="Providers2.uml#_j_yKcXahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kxxBXHahEfCFlusnXIjHlg" name="email">
+      <modelElement href="Providers2.uml#_kLdO9HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxBXXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLdO9XahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxBXnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxBX3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kxxBYHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kxxBYXahEfCFlusnXIjHlg" name="ProviderEO">
+      <modelElement href="Providers2.uml#_j_wVQHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxxoEHahEfCFlusnXIjHlg" keyword="create"/>
+      <stereotypes xmi:id="_kxxoEXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_j_w8UHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxoEnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxoE3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxxoFHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_wVQ3ahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxxoFXahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxxoFnahEfCFlusnXIjHlg" name="getInsurancePlans">
+      <modelElement href="Providers2.uml#_j_w8UXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxoF3ahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_j_yKcHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxoGHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxoGXahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kxxoGnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_xjYHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxxoG3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kxxoHHahEfCFlusnXIjHlg" name="ProviderEO">
+      <modelElement href="Providers2.uml#_kK-t0HahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kxxoHXahEfCFlusnXIjHlg" keyword="create"/>
+      <stereotypes xmi:id="_kxxoHnahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kK_78nahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxoH3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxoIHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kxxoIXahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kK_78XahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kxxoInahEfCFlusnXIjHlg" name="ProviderEO">
+          <modelElement href="Providers2.uml#_j_q1sHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kxxoI3ahEfCFlusnXIjHlg" name="id">
+        <modelElement href="Providers2.uml#_kK-t0XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoJHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoJXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoJnahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kK_U4HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoJ3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoKHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoKXahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kK_U4XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoKnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoK3ahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoLHahEfCFlusnXIjHlg" name="password">
+        <modelElement href="Providers2.uml#_kK_U4nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoLXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoLnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoL3ahEfCFlusnXIjHlg" name="speciality">
+        <modelElement href="Providers2.uml#_kK_U43ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoMHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoMXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoMnahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kK_U5HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoM3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoNHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoNXahEfCFlusnXIjHlg" name="location">
+        <modelElement href="Providers2.uml#_kK_U5XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoNnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoN3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoOHahEfCFlusnXIjHlg" name="zipcode">
+        <modelElement href="Providers2.uml#_kK_U5nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoOXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoOnahEfCFlusnXIjHlg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoO3ahEfCFlusnXIjHlg" name="lat">
+        <modelElement href="Providers2.uml#_kK_U53ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoPHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoPXahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoPnahEfCFlusnXIjHlg" name="lon">
+        <modelElement href="Providers2.uml#_kK_U6HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoP3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoQHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoQXahEfCFlusnXIjHlg" name="hospitalName">
+        <modelElement href="Providers2.uml#_kK_U6XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoQnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoQ3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoRHahEfCFlusnXIjHlg" name="insurance_Plans">
+        <modelElement href="Providers2.uml#_kK_U6nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoRXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoRnahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoR3ahEfCFlusnXIjHlg" name="active_Status">
+        <modelElement href="Providers2.uml#_kK_U63ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoSHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoSXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoSnahEfCFlusnXIjHlg" name="geoLocation">
+        <modelElement href="Providers2.uml#_kK_U7HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoS3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoTHahEfCFlusnXIjHlg" name="GeoJsonPoint">
+          <modelElement href="Providers2.uml#_kKEu4HahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoTXahEfCFlusnXIjHlg" name="reviews">
+        <modelElement href="Providers2.uml#_kK_U7XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoTnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoT3ahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kxxoUHahEfCFlusnXIjHlg" name="email">
+        <modelElement href="Providers2.uml#_kK_U7nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoUXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoUnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kxxoU3ahEfCFlusnXIjHlg" name="setInsurancePlans">
+      <modelElement href="Providers2.uml#_kLBxIXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kxxoVHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLCYMXahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kxxoVXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kxxoVnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kxxoV3ahEfCFlusnXIjHlg" name="insurance_Plans">
+        <modelElement href="Providers2.uml#_kLCYMHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kxxoWHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kxxoWXahEfCFlusnXIjHlg" name="List">
+          <modelElement href="Providers2.uml#_kJ2scnahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kyc9gHahEfCFlusnXIjHlg" name="DoctorServiceUrl" associationsIn="_kxIu4HahEfCFlusnXIjHlg _kyidEHahEfCFlusnXIjHlg" associationsOut="_kybIUHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_kALzEHahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kyc9gXahEfCFlusnXIjHlg" position="-966.0,962.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_kyc9gnahEfCFlusnXIjHlg" name="LegacyStyledElement">
+      <modelElement href="Providers2.uml#_kANBMHahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_kyc9g3ahEfCFlusnXIjHlg" name="Annotations">
+      <modelElement href="Providers2.uml#_kANoQXahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kyc9hHahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kyc9hXahEfCFlusnXIjHlg" name="doctorServiceUrl">
+      <modelElement href="Providers2.uml#_kLedEHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyc9hnahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLfEIHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyc9h3ahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyc9iHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kyc9iXahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kyc9inahEfCFlusnXIjHlg" name="restTemplate">
+      <modelElement href="Providers2.uml#_kLfEI3ahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyc9i3ahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_kLfrMHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyc9jHahEfCFlusnXIjHlg" label="-"/>
+      <cardinality xmi:id="_kyc9jXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kyc9jnahEfCFlusnXIjHlg" name="RestTemplate">
+        <modelElement href="Providers2.uml#_kJ03Q3ahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kyc9j3ahEfCFlusnXIjHlg" name="fetchDoctorByDocId">
+      <modelElement href="Providers2.uml#_kANBMXahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyc9kHahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kANoQHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyc9kXahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyc9knahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kyc9k3ahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kKVNkXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyc9lHahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyc9lXahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kANBMnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9lnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9l3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kyc9mHahEfCFlusnXIjHlg" name="filterDoctors">
+      <modelElement href="Providers2.uml#_kLJF4HahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kyc9mXahEfCFlusnXIjHlg" name="StyledElement">
+        <modelElement href="Providers2.uml#_kLJF7HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kyc9mnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kyc9m3ahEfCFlusnXIjHlg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_kyc9nHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLJF6nahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kyc9nXahEfCFlusnXIjHlg" name="DoctorDTO">
+          <modelElement href="Providers2.uml#_j_SbMHahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kyc9nnahEfCFlusnXIjHlg" name="docId">
+        <modelElement href="Providers2.uml#_kLJF4XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9n3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9oHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9oXahEfCFlusnXIjHlg" name="hosId">
+        <modelElement href="Providers2.uml#_kLJF4nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9onahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9o3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9pHahEfCFlusnXIjHlg" name="specialization">
+        <modelElement href="Providers2.uml#_kLJF43ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9pXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9pnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9p3ahEfCFlusnXIjHlg" name="availabilityStatus">
+        <modelElement href="Providers2.uml#_kLJF5HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9qHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9qXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9qnahEfCFlusnXIjHlg" name="licenseNumber">
+        <modelElement href="Providers2.uml#_kLJF5XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9q3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9rHahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9rXahEfCFlusnXIjHlg" name="qualification">
+        <modelElement href="Providers2.uml#_kLJF5nahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9rnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9r3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9sHahEfCFlusnXIjHlg" name="name">
+        <modelElement href="Providers2.uml#_kLJF53ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9sXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9snahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9s3ahEfCFlusnXIjHlg" name="yearsOfExperience">
+        <modelElement href="Providers2.uml#_kLJF6HahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9tHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9tXahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kyc9tnahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kLJF6XahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kyc9t3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kyc9uHahEfCFlusnXIjHlg" name="Double">
+          <modelElement href="Providers2.uml#_kKp9sHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kx6yAHahEfCFlusnXIjHlg" name="Review" associationsIn="_kxxBAHahEfCFlusnXIjHlg _kx4VwHahEfCFlusnXIjHlg">
+    <modelElement href="Providers2.uml#_j_yKcXahEfCFlusnXIjHlg"/>
+    <visualProperties xmi:id="_kx6yAXahEfCFlusnXIjHlg" position="-2079.0,962.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_kx6yAnahEfCFlusnXIjHlg" keyword="static"/>
+    <stereotypes xmi:id="_kx6yA3ahEfCFlusnXIjHlg" name="StyledElement">
+      <modelElement href="Providers2.uml#_j_yxgnahEfCFlusnXIjHlg"/>
+    </stereotypes>
+    <visibility xmi:id="_kx6yBHahEfCFlusnXIjHlg" label="+"/>
+    <attributes xmi:id="_kx6yBXahEfCFlusnXIjHlg" name="customer_name">
+      <modelElement href="Providers2.uml#_kLd2AHahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6yBnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yB3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kx6yCHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kx6yCXahEfCFlusnXIjHlg" name="customer_email">
+      <modelElement href="Providers2.uml#_kLd2AXahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6yCnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yC3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kx6yDHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kx6yDXahEfCFlusnXIjHlg" name="review">
+      <modelElement href="Providers2.uml#_kLd2AnahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6yDnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yD3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kx6yEHahEfCFlusnXIjHlg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kx6yEXahEfCFlusnXIjHlg" name="review_given_time">
+      <modelElement href="Providers2.uml#_kLd2A3ahEfCFlusnXIjHlg"/>
+      <visibility xmi:id="_kx6yEnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yE3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <type xmi:id="_kx6yFHahEfCFlusnXIjHlg" name="Instant">
+        <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kx6yFXahEfCFlusnXIjHlg" name="Review">
+      <modelElement href="Providers2.uml#_j_zYkHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kx6yFnahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kx6yF3ahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yGHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kx6yGXahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_z_oXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kx6yGnahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_j_yKcXahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kx6yG3ahEfCFlusnXIjHlg" name="toString">
+      <modelElement href="Providers2.uml#_j_0msHahEfCFlusnXIjHlg"/>
+      <stereotypes xmi:id="_kx6yHHahEfCFlusnXIjHlg" name="LegacyStyledElement">
+        <modelElement href="Providers2.uml#_j_1NwHahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kx6yHXahEfCFlusnXIjHlg" name="Annotations">
+        <modelElement href="Providers2.uml#_j_100HahEfCFlusnXIjHlg"/>
+      </stereotypes>
+      <visibility xmi:id="_kx6yHnahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yH3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kx6yIHahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_j_0msXahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kx6yIXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kx6yInahEfCFlusnXIjHlg" name="Review">
+      <modelElement href="Providers2.uml#_kLC_QHahEfCFlusnXIjHlg"/>
+      <keywords xmi:id="_kx6yI3ahEfCFlusnXIjHlg" keyword="create"/>
+      <visibility xmi:id="_kx6yJHahEfCFlusnXIjHlg" label="+"/>
+      <cardinality xmi:id="_kx6yJXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kx6yJnahEfCFlusnXIjHlg">
+        <modelElement href="Providers2.uml#_kLC_SHahEfCFlusnXIjHlg"/>
+        <type xmi:id="_kx6yJ3ahEfCFlusnXIjHlg" name="Review">
+          <modelElement href="Providers2.uml#_j_yKcXahEfCFlusnXIjHlg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kx6yKHahEfCFlusnXIjHlg" name="customer_name">
+        <modelElement href="Providers2.uml#_kLC_QXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kx6yKXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kx6yKnahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kx6yK3ahEfCFlusnXIjHlg" name="customer_email">
+        <modelElement href="Providers2.uml#_kLC_QnahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kx6yLHahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kx6yLXahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kx6yLnahEfCFlusnXIjHlg" name="rating">
+        <modelElement href="Providers2.uml#_kLC_Q3ahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kx6yL3ahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kx6yMHahEfCFlusnXIjHlg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kx6yMXahEfCFlusnXIjHlg" name="review">
+        <modelElement href="Providers2.uml#_kLC_RHahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kx6yMnahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kx6yM3ahEfCFlusnXIjHlg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kx6yNHahEfCFlusnXIjHlg" name="review_given_time">
+        <modelElement href="Providers2.uml#_kLC_RXahEfCFlusnXIjHlg"/>
+        <cardinality xmi:id="_kx6yNXahEfCFlusnXIjHlg" label="1" max="1" min="1"/>
+        <type xmi:id="_kx6yNnahEfCFlusnXIjHlg" name="Instant">
+          <modelElement href="Providers2.uml#_kKBrkHahEfCFlusnXIjHlg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

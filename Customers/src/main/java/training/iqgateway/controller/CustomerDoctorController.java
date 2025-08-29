@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import training.iqgateway.dto.DoctorDTO;
-import training.iqgateway.dto.ProviderDTO;
+import training.admin.iqgateway.dto.DoctorDTO;
+import training.admin.iqgateway.dto.ProviderDTO;
 import training.iqgateway.service.impl.DoctorClientService;
 import training.iqgateway.service.impl.ProviderClientService;
 

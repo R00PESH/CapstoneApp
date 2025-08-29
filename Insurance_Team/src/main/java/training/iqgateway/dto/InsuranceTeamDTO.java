@@ -3,7 +3,7 @@ package training.iqgateway.dto;
 import java.time.Instant;
 
 public class InsuranceTeamDTO {
-    private String insurer_Id;    // Business unique key
+    private String insurerId;    // Business unique key
     private String name;
     private String email;
     private String password;
@@ -12,8 +12,8 @@ public class InsuranceTeamDTO {
 
     public InsuranceTeamDTO() {}
 
-    public InsuranceTeamDTO(String insurer_Id, String name, String email, String password, Instant hire_date, String active_status) {
-        this.insurer_Id = insurer_Id;
+    public InsuranceTeamDTO(String insurerId, String name, String email, String password, Instant hire_date, String active_status) {
+        this.insurerId = insurerId;
         this.name = name;
         this.email = email;
         this.password = password;
@@ -22,12 +22,12 @@ public class InsuranceTeamDTO {
     }
 
     // Getters and setters
-    public String getInsurer_Id() {
-        return insurer_Id;
+    public String getInsurerId() {
+        return insurerId;
     }
 
-    public void setInsurer_Id(String insurer_Id) {
-        this.insurer_Id = insurer_Id;
+    public void setInsurerId(String insurerId) {
+        this.insurerId = insurerId;
     }
 
     public String getName() {

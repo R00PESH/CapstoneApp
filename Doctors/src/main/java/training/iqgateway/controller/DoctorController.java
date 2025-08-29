@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -61,11 +62,22 @@ public class DoctorController {
 	                .collect(Collectors.toList());
 	    }
 
+//	    @PutMapping("/{id}")
+//	    public DoctorDTO updateDoctor(@PathVariable String id, @RequestBody DoctorDTO dto) {
+//	        DoctorEO updated = doctorService.updateDoctor(id, DoctorMapper.toEntity(dto));
+//	        return DoctorMapper.toDTO(updated);
+//	    }
+	    
 	    @PutMapping("/{id}")
-	    public DoctorDTO updateDoctor(@PathVariable String id, @RequestBody DoctorDTO dto) {
+	    public ResponseEntity<DoctorDTO> updateDoctor(@PathVariable String id, @RequestBody DoctorDTO dto) {
 	        DoctorEO updated = doctorService.updateDoctor(id, DoctorMapper.toEntity(dto));
-	        return DoctorMapper.toDTO(updated);
+	        if (updated == null) {
+	            // Return HTTP 404 if resource was not found
+	            return ResponseEntity.notFound().build();
+	        }
+	        return ResponseEntity.ok(DoctorMapper.toDTO(updated));
 	    }
+
 
 	    @DeleteMapping("/{id}")
 	    public void deleteDoctor(@PathVariable String id) {

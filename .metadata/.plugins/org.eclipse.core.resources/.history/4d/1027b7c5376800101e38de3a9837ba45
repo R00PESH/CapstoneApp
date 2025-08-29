@@ -1,5 +1,0 @@
-spring.application.name=Providers
-
-server.port=9090
-
-spring.data.mongodb.uri=mongodb://localhost:27017/Providers_Finders

@@ -66,4 +66,10 @@ public class CustomerServiceImpl implements CustomerService {
 
 	}
 
+	@Override
+	public CustomerEO getCustomerByEmail(String email) {
+		// TODO Auto-generated method stub
+		return customerRepo.findByEmail(email);
+	}
+
 }

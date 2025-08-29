@@ -1,5 +1,6 @@
 package training.iqgateway.model;
 
+
 import java.time.Instant;
 import java.util.List;
 
@@ -18,9 +19,11 @@ public class ProviderEO {
 	
 	private List<String> docId;
 	
+	private String password;
+	
 	private String speciality;
 		
-	private double rating;
+		private double rating;
 	
 	private String location;
 	
@@ -43,18 +46,21 @@ public class ProviderEO {
 	
 	private List<Review> reviews;
 	
+	private String email;
 	
 	
 	
 	
 	
-	public ProviderEO(String id,String hosId,List<String> docId, String speciality, double rating,
+	
+	public ProviderEO(String id,String hosId,List<String> docId,String password, String speciality, double rating,
 			String location, long zipcode, double lat, double lon, String hospitalName, List<String> insurance_Plans,
-			String active_Status, GeoJsonPoint geoLocation, List<Review> reviews) {
+			String active_Status, GeoJsonPoint geoLocation, List<Review> reviews,String email) {
 		super();
 		this.id = id;
 		this.hosId = hosId;
 		this.docId=docId;
+		this.password=password;
 		this.speciality = speciality;
 		this.rating = rating;
 		this.location = location;
@@ -66,6 +72,25 @@ public class ProviderEO {
 		this.activeStatus = active_Status;
 		this.geoLocation = geoLocation;
 		this.reviews = reviews;
+		this.email=email;
+	}
+
+
+
+
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+
+
+
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 
@@ -292,6 +317,25 @@ public class ProviderEO {
 	public void setReviews(List<Review> reviews) {
 		this.reviews = reviews;
 	}
+	
+	
+
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+
+
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
 
 
 
@@ -301,7 +345,7 @@ public class ProviderEO {
 		
 		private String customer_email;
 		
-		private double rating;
+		private Double rating;
 		
 		private String review;
 		
@@ -337,12 +381,15 @@ public class ProviderEO {
 		public void setCustomer_email(String customer_email) {
 			this.customer_email = customer_email;
 		}
+		
+		
+		
 
-		public double getRating() {
+		public Double getRating() {
 			return rating;
 		}
 
-		public void setRating(double rating) {
+		public void setRating(Double rating) {
 			this.rating = rating;
 		}
 

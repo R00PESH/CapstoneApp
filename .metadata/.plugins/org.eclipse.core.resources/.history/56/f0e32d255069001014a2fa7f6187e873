@@ -1,5 +1,0 @@
-package training.iqgateway.repo;
-
-public interface DoctorRepository {
-
-}

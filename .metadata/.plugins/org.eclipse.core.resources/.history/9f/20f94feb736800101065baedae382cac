@@ -1,7 +1,0 @@
-package training.iqgateway.repo;
-
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-public class CustomerRepository implements MongoRepository<T, ID> {
-
-}
